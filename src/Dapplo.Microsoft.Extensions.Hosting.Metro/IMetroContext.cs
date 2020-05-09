@@ -7,7 +7,7 @@ using System.Collections.Generic;
 namespace Dapplo.Microsoft.Extensions.Hosting.Metro
 {
     /// <summary>
-    /// The metro context contains all information for Mahapps.Metro
+    /// The metro context contains all information for MahApps.Metro
     /// </summary>
     public interface IMetroContext
     {

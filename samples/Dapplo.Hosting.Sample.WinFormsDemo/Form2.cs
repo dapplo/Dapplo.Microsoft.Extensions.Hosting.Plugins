@@ -17,7 +17,7 @@ namespace Dapplo.Hosting.Sample.WinFormsDemo
             InitializeComponent();
         }
 
-        private void buttonExit_Click(object sender, EventArgs e)
+        private void ButtonClose_Click(object sender, EventArgs e)
         {
             _logger.LogDebug("Closing form2");
             Close();

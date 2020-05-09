@@ -56,7 +56,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.AppServices
             {
                 throw new ArgumentNullException(nameof(mutexId));
             }
-            logger = logger ?? new LoggerFactory().CreateLogger<ResourceMutex>();
+            logger ??= new LoggerFactory().CreateLogger<ResourceMutex>();
             var applicationMutex = new ResourceMutex(logger, (global ? @"Global\" : @"Local\") + mutexId, resourceName);
             applicationMutex.Lock();
             return applicationMutex;
@@ -115,7 +115,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.AppServices
             catch (AbandonedMutexException e)
             {
                 // Another instance didn't cleanup correctly!
-                // we can ignore the exception, it happend on the "waitone" but still the mutex belongs to us
+                // we can ignore the exception, it happened on the "WaitOne" but still the mutex belongs to us
                 _logger.LogWarning(e, "{0} didn't cleanup correctly, but we got the mutex {1}.", _resourceName, _mutexId);
             }
             catch (UnauthorizedAccessException e)

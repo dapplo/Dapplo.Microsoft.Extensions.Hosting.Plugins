@@ -10,14 +10,18 @@ using Microsoft.Extensions.Logging;
 namespace Dapplo.Hosting.Sample.PluginOriginalSample
 {
     /// <summary>
-    /// Example for a IHostedService which tracks LivetimeEvents
+    /// Example for a IHostedService which tracks live-time events
     /// </summary>
     internal class LifetimeEventsHostedService : IHostedService
     {
         private readonly ILogger _logger;
         private readonly IHostApplicationLifetime _hostApplicationLifetime;
 
-        /// <inheritdoc />
+        /// <summary>
+        /// DI-Constructor of this LifetimeEventsHostedService
+        /// </summary>
+        /// <param name="logger">ILogger</param>
+        /// <param name="hostApplicationLifetime">IHostApplicationLifetime</param>
         public LifetimeEventsHostedService(ILogger<LifetimeEventsHostedService> logger, IHostApplicationLifetime hostApplicationLifetime)
         {
             _logger = logger;

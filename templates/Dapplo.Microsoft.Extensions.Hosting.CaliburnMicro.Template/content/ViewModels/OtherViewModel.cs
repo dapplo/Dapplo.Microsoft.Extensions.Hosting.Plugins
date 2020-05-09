@@ -4,7 +4,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template.ViewModels
 {
     public class OtherViewModel : Screen
     {
-        public void Exit()
+        public void Close()
         {
             TryClose();
         }

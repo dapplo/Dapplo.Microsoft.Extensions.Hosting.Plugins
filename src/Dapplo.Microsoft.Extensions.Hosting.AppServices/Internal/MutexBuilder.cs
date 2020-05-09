@@ -14,7 +14,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.AppServices.Internal
     {
         /// <inheritdoc />
         public string MutexId { get; set; }
-        
+
         /// <inheritdoc />
         public bool IsGlobal { get; set; }
 

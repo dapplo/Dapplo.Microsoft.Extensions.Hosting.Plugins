@@ -38,12 +38,16 @@ namespace Dapplo.Hosting.Sample.WinFormsDemo
                 })
                 .ConfigurePlugins(pluginBuilder =>
                 {
+                    var runtime = Path.GetFileName(executableLocation);
+                    var parentDirectory = Directory.GetParent(executableLocation).FullName;
+                    var configuration = Path.GetFileName(parentDirectory);
+                    var basePath = Path.Combine(executableLocation, @"..\..\..\..\");
                     // Specify the location from where the Dll's are "globbed"
-                    pluginBuilder.AddScanDirectories(Path.Combine(executableLocation, @"..\..\..\..\"));
+                    pluginBuilder.AddScanDirectories(basePath);
                     // Add the framework libraries which can be found with the specified globs
-                    pluginBuilder.IncludeFrameworks(@"**\bin\**\*.FrameworkLib.dll");
+                    pluginBuilder.IncludeFrameworks(@$"**\bin\{configuration}\netstandard2.0\*.FrameworkLib.dll");
                     // Add the plugins which can be found with the specified globs
-                    pluginBuilder.IncludePlugins(@"**\bin\**\*.Plugin*.dll");
+                    pluginBuilder.IncludePlugins(@$"**\bin\{configuration}\{runtime}\*.Sample.Plugin*.dll");
                 })
                 .ConfigureServices(serviceCollection =>
                 {

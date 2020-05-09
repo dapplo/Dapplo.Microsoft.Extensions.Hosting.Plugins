@@ -3,7 +3,9 @@
 
 using System;
 using System.Reflection;
+#if NETCOREAPP
 using System.Runtime.Loader;
+#endif
 
 namespace Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
 {
@@ -35,7 +37,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
         protected override Assembly Load(AssemblyName assemblyName)
         {
             // Try to get the assembly from the AssemblyLoadContext.Default, when it is already loaded
-            if (Default.TryGetAssembly(assemblyName, out var alreadyLoadedAssembly)) 
+            if (Default.TryGetAssembly(assemblyName, out var alreadyLoadedAssembly))
             {
                 return alreadyLoadedAssembly;
             }

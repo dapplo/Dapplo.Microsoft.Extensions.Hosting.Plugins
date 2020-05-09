@@ -41,12 +41,16 @@ namespace Dapplo.Hosting.Sample.CaliburnMicroDemo
                 })
                 .ConfigurePlugins(pluginBuilder =>
                 {
-                    // Specify the location from where the DLL's are "globbed"
-                    pluginBuilder.AddScanDirectories(Path.Combine(executableLocation, @"..\..\..\..\"));
+                    var runtime = Path.GetFileName(executableLocation);
+                    var parentDirectory = Directory.GetParent(executableLocation).FullName;
+                    var configuration = Path.GetFileName(parentDirectory);
+                    var basePath = Path.Combine(executableLocation, @"..\..\..\..\");
+                    // Specify the location from where the Dll's are "globbed"
+                    pluginBuilder.AddScanDirectories(basePath);
                     // Add the framework libraries which can be found with the specified globs
-                    pluginBuilder.IncludeFrameworks(@"**\bin\**\*.FrameworkLib.dll");
+                    pluginBuilder.IncludeFrameworks(@$"**\bin\{configuration}\netstandard2.0\*.FrameworkLib.dll");
                     // Add the plugins which can be found with the specified globs
-                    pluginBuilder.IncludePlugins(@"**\bin\**\*.Plugin*.dll");
+                    pluginBuilder.IncludePlugins(@$"**\bin\{configuration}\{runtime}\*.Sample.Plugin*.dll");
                 })
                 .ConfigureCaliburnMicro<MainViewModel>()
                 .ConfigureServices(serviceCollection =>

@@ -8,11 +8,13 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.IO;
 using Dapplo.Microsoft.Extensions.Hosting.AppServices;
-using Dapplo.Microsoft.Extensions.Hosting.Wpf;
 using System.Threading.Tasks;
-using Dapplo.Microsoft.Extensions.Hosting.ReactiveUI;
 using Microsoft.Extensions.DependencyInjection;
 using ReactiveUI;
+using Splat.Microsoft.Extensions.DependencyInjection;
+using Splat;
+using Dapplo.Microsoft.Extensions.Hosting.Wpf;
+using Dapplo.Microsoft.Extensions.Hosting.ReactiveUI;
 
 namespace Dapplo.Hosting.Sample.ReactiveDemo
 {
@@ -25,10 +27,16 @@ namespace Dapplo.Hosting.Sample.ReactiveDemo
         public static async Task Main(string[] args)
         {
             var executableLocation = Path.GetDirectoryName(typeof(Program).Assembly.Location);
-
+            if (executableLocation == null)
+            {
+                throw new NotSupportedException("Can't start without location.");
+            }
             var host = new HostBuilder()
                 .ConfigureReactiveUi()
-                .ConfigureWpf<MainWindow>()
+                .ConfigureWpf(wpfBuilder =>
+                {
+                    wpfBuilder.UseWindow<MainWindow>();
+                })
                 .ConfigureLogging()
                 .ConfigureConfiguration(args)
                 .ConfigureSingleInstance(builder =>
@@ -42,22 +50,25 @@ namespace Dapplo.Hosting.Sample.ReactiveDemo
                 })
                 .ConfigurePlugins(pluginBuilder =>
                 {
-                    // Specify the location from where the DLL's are "globbed"
-                    pluginBuilder.AddScanDirectories(Path.Combine(executableLocation, @"..\..\..\..\"));
+                    var runtime = Path.GetFileName(executableLocation);
+                    var parentDirectory = Directory.GetParent(executableLocation).FullName;
+                    var configuration = Path.GetFileName(parentDirectory);
+                    var basePath = Path.Combine(executableLocation, @"..\..\..\..\");
+                    // Specify the location from where the Dll's are "globbed"
+                    pluginBuilder.AddScanDirectories(basePath);
                     // Add the framework libraries which can be found with the specified globs
-                    pluginBuilder.IncludeFrameworks(@"**\bin\**\*.FrameworkLib.dll");
+                    pluginBuilder.IncludeFrameworks(@$"**\bin\{configuration}\netstandard2.0\*.FrameworkLib.dll");
                     // Add the plugins which can be found with the specified globs
-                    pluginBuilder.IncludePlugins(@"**\bin\**\*.Plugin*.dll");
+                    pluginBuilder.IncludePlugins(@$"**\bin\{configuration}\{runtime}\*.Sample.Plugin*.dll");
                 })
                 .ConfigureServices(serviceCollection =>
                 {
-                    // Make OtherWindow available for DI to MainWindow
-                    serviceCollection.AddSingleton<IViewFor<NugetDetailsViewModel>,NugetDetailsView>();
-                    serviceCollection.AddSingleton<IViewFor<NugetDetailsViewModel>, NugetDetailsView>();
+                    serviceCollection.AddTransient<IViewFor<NugetDetailsViewModel>, NugetDetailsView>();
                 })
                 .UseConsoleLifetime()
                 .UseWpfLifetime()
-                .Build();
+                .Build()
+                .MapSplatLocator(); // Optional with optional overload
 
             Console.WriteLine("Run!");
             await host.RunAsync();

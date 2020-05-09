@@ -6,6 +6,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
@@ -18,34 +19,36 @@ namespace Dapplo.Microsoft.Extensions.Hosting.WinForms
     public class WinFormsHostedService : IHostedService
     {
         private readonly ILogger<WinFormsHostedService> _logger;
-        private readonly IServiceProvider _serviceProvider;
+        private readonly WinFormsThread _winFormsThread;
         private readonly IWinFormsContext _winFormsContext;
-        
+
         /// <summary>
         /// The constructor which takes all the DI objects
         /// </summary>
         /// <param name="logger">ILogger</param>
-        /// <param name="serviceProvider">IServiceProvider</param>
+        /// <param name="winFormsThread">WinFormsThread</param>
         /// <param name="winFormsContext">IWinFormsContext</param>
-        public WinFormsHostedService(ILogger<WinFormsHostedService> logger, IServiceProvider serviceProvider, IWinFormsContext winFormsContext)
+        public WinFormsHostedService(ILogger<WinFormsHostedService> logger, WinFormsThread winFormsThread, IWinFormsContext winFormsContext)
         {
             _logger = logger;
-            _serviceProvider = serviceProvider;
+            _winFormsThread = winFormsThread;
             _winFormsContext = winFormsContext;
-            
         }
 
         /// <inheritdoc />
         public Task StartAsync(CancellationToken cancellationToken)
         {
-            _winFormsContext.StartUi(_serviceProvider);
+            if (cancellationToken.IsCancellationRequested)
+            {
+                return Task.CompletedTask;
+            }
+            _winFormsThread.Start();
             return Task.CompletedTask;
         }
 
         /// <inheritdoc />
         public async Task StopAsync(CancellationToken cancellationToken)
         {
-            
             if (_winFormsContext.IsRunning)
             {
                 _logger.LogDebug("Stopping WinForms application.");

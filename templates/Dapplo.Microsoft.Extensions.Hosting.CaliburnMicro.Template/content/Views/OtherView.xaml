@@ -15,7 +15,7 @@
         Title="OtherWindow" Height="200" Width="300">
     <StackPanel>
         <Label Content="Hello again" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="40"/>
-        <Button Name="Exit" Content="Exit" FontSize="20"/>
+        <Button Name="Close" Content="Close" FontSize="20"/>
     </StackPanel>
 <!--#if (EnableMetro) -->
 </mahapps:MetroWindow>

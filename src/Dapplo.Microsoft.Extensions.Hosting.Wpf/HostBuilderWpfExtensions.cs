@@ -1,4 +1,4 @@
-﻿// Copyright (c) Dapplo and contributors. All rights reserved.
+// Copyright (c) Dapplo and contributors. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 using System;
@@ -11,12 +11,12 @@ using Microsoft.Extensions.Hosting;
 namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
 {
     /// <summary>
-    /// This contains the WPF extensions for Microsoft.Extensions.Hosting 
+    /// This contains the WPF extensions for Microsoft.Extensions.Hosting
     /// </summary>
     public static class HostBuilderWpfExtensions
     {
         private const string WpfContextKey = "WpfContext";
-        
+
         /// <summary>
         /// Helper method to retrieve the IWpfContext
         /// </summary>
@@ -27,9 +27,8 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
         {
             if (properties.TryGetValue(WpfContextKey, out var wpfContextAsObject))
             {
-                wpfContext = wpfContextAsObject as IWpfContext;
+                wpfContext = (IWpfContext)wpfContextAsObject;
                 return true;
-
             }
             wpfContext = new WpfContext();
             properties[WpfContextKey] = wpfContext;
@@ -37,7 +36,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
         }
 
         /// <summary>
-        /// Defines that stopping the WPF application also stops the host (application) 
+        /// Defines that stopping the WPF application also stops the host (application)
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <param name="shutdownMode">ShutdownMode default is OnLastWindowClose</param>
@@ -61,68 +60,63 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
         /// Configure an WPF application
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
-        /// <param name="configureAction">Action to configure the Application</param>
-        /// <returns>IHostBuilder</returns>
-        public static IHostBuilder ConfigureWpf(this IHostBuilder hostBuilder, Action<IWpfContext> configureAction = null)
+        /// <param name="configureDelegate">Action to configure Wpf</param>
+        /// <returns></returns>
+        public static IHostBuilder ConfigureWpf(this IHostBuilder hostBuilder, Action<IWpfBuilder> configureDelegate = null)
         {
+            var wpfBuilder = new WpfBuilder();
+            configureDelegate?.Invoke(wpfBuilder);
+
             hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
             {
                 if (!TryRetrieveWpfContext(hostBuilder.Properties, out var wpfContext))
                 {
                     serviceCollection.AddSingleton(wpfContext);
+                    serviceCollection.AddSingleton(serviceProvider => new WpfThread(serviceProvider));
                     serviceCollection.AddHostedService<WpfHostedService>();
                 }
-                configureAction?.Invoke(wpfContext);
+                wpfBuilder.ConfigureContextAction?.Invoke(wpfContext);
             });
-            return hostBuilder;
-        }
-        
-        /// <summary>
-        /// Configure an WPF application
-        /// </summary>
-        /// <param name="hostBuilder">IHostBuilder</param>
-        /// <param name="configureAction">Action to configure the Application</param>
-        /// <typeparam name="TShell">Type for the shell, must derive from Window and implement IWpfShell</typeparam>
-        /// <returns>IHostBuilder</returns>
-        public static IHostBuilder ConfigureWpf<TShell>(this IHostBuilder hostBuilder, Action<IWpfContext> configureAction = null) where TShell : Window, IWpfShell
-        {
-            hostBuilder.ConfigureWpf(configureAction);
-            hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
+
+            if (wpfBuilder.ApplicationType != null)
             {
-                serviceCollection.AddSingleton<IWpfShell, TShell>();
-            });
+                // Check if the registered application does inherit System.Windows.Application
+                var baseApplicationType = typeof(Application);
+                if (!baseApplicationType.IsAssignableFrom(wpfBuilder.ApplicationType))
+                {
+                    throw new ArgumentException("The registered Application type inherit System.Windows.Application", nameof(configureDelegate));
+                }
+
+                hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
+                {
+                    serviceCollection.AddSingleton(wpfBuilder.ApplicationType);
+
+                    if (wpfBuilder.ApplicationType != baseApplicationType)
+                    {
+                        serviceCollection.AddSingleton(serviceProvider => (Application)serviceProvider.GetRequiredService(wpfBuilder.ApplicationType));
+                    }
+                });
+            }
+
+            if (wpfBuilder.WindowTypes.Count > 0)
+            {
+                hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
+                {
+                    foreach (var wpfWindowType in wpfBuilder.WindowTypes)
+                    {
+                        serviceCollection.AddSingleton(wpfWindowType);
+
+                        // Check if it also implements IWpfShell so we can register it as this
+                        var shellInterfaceType = typeof(IWpfShell);
+                        if (shellInterfaceType.IsAssignableFrom(wpfWindowType))
+                        {
+                            serviceCollection.AddSingleton(shellInterfaceType, serviceProvider => serviceProvider.GetRequiredService(wpfWindowType));
+                        }
+                    }
+                });
+            }
+
             return hostBuilder;
-        }
-
-    /// <summary>
-    /// Configure an WPF application
-    /// </summary>
-    /// <param name="hostBuilder">IHostBuilder</param>
-    /// <param name="configureAction">Action to configure the Application</param>
-    /// <typeparam name="TShell">Type for the shell, must derive from Window and implement IWpfShell</typeparam>
-    /// <typeparam name="TViewModel">Type for the shell's ViewModel, must derive from <see cref="IWpfViewModel"/></typeparam>
-    /// <returns>IHostBuilder</returns>
-    public static IHostBuilder ConfigureWpf<TShell, TViewModel>(this IHostBuilder hostBuilder, Action<IWpfContext> configureAction = null)
-        where TShell : Window, IWpfShell
-        where TViewModel : class, IWpfViewModel
-    {
-        hostBuilder.ConfigureWpf<TShell>(configureAction);
-        hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
-        {
-            serviceCollection.AddScoped<IWpfViewModel, TViewModel>();
-        });
-        return hostBuilder;
-    }
-
-    /// <summary>
-    /// Specify the shell, the primary window, to start
-    /// </summary>
-    /// <param name="hostBuilder">IHostBuilder</param>
-    /// <typeparam name="TShell">Type for the shell, must derive from Window and implement IWpfShell</typeparam>
-    /// <returns>IHostBuilder</returns>
-    public static IHostBuilder ConfigureWpfShell<TShell>(this IHostBuilder hostBuilder) where TShell : Window, IWpfShell
-        {
-            return hostBuilder.ConfigureWpf<TShell>();
         }
     }
 }

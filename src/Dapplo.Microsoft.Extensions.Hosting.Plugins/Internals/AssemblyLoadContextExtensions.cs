@@ -2,7 +2,9 @@
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 using System.Reflection;
+#if NETCOREAPP
 using System.Runtime.Loader;
+#endif
 
 namespace Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
 {

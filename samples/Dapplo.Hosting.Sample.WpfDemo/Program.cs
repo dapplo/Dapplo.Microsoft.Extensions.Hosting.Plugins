@@ -25,6 +25,10 @@ namespace Dapplo.Hosting.Sample.WpfDemo
         public static async Task Main(string[] args)
         {
             var executableLocation = Path.GetDirectoryName(typeof(Program).Assembly.Location);
+            if (executableLocation == null)
+            {
+                throw new NotSupportedException("Can't start without location.");
+            }
             var host = new HostBuilder()
                 .ConfigureLogging()
                 .ConfigureConfiguration(args)
@@ -39,12 +43,16 @@ namespace Dapplo.Hosting.Sample.WpfDemo
                 })
                 .ConfigurePlugins(pluginBuilder =>
                 {
+                    var runtime = Path.GetFileName(executableLocation);
+                    var parentDirectory = Directory.GetParent(executableLocation).FullName;
+                    var configuration = Path.GetFileName(parentDirectory);
+                    var basePath = Path.Combine(executableLocation, @"..\..\..\..\");
                     // Specify the location from where the Dll's are "globbed"
-                    pluginBuilder.AddScanDirectories(Path.Combine(executableLocation, @"..\..\..\..\"));
+                    pluginBuilder.AddScanDirectories(basePath);
                     // Add the framework libraries which can be found with the specified globs
-                    pluginBuilder.IncludeFrameworks(@"**\bin\**\*.FrameworkLib.dll");
+                    pluginBuilder.IncludeFrameworks(@$"**\bin\{configuration}\netstandard2.0\*.FrameworkLib.dll");
                     // Add the plugins which can be found with the specified globs
-                    pluginBuilder.IncludePlugins(@"**\bin\**\*.Plugin*.dll");
+                    pluginBuilder.IncludePlugins(@$"**\bin\{configuration}\{runtime}\*.Sample.Plugin*.dll");
                 })
                 .ConfigureServices(serviceCollection =>
                 {
@@ -52,8 +60,13 @@ namespace Dapplo.Hosting.Sample.WpfDemo
                     serviceCollection.AddTransient<OtherWindow>();
                     serviceCollection.AddTransient<OtherWindowViewModel>();
                     serviceCollection.AddTransient<OpenOtherWindowCommand>();
+                    serviceCollection.AddScoped<MainWindowViewModel>();
                 })
-                .ConfigureWpf<MainWindow, MainWindowViewModel>()
+                .ConfigureWpf(wpfBuilder =>
+                {
+                    wpfBuilder.UseApplication<MyApplication>();
+                    wpfBuilder.UseWindow<MainWindow>();
+                })
                 .UseWpfLifetime()
                 .UseConsoleLifetime()
                 .Build();

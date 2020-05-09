@@ -8,7 +8,9 @@ using Caliburn.Micro;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
 using Microsoft.Extensions.Logging;
+#if NETCOREAPP
 using System.Runtime.Loader;
+#endif
 using Microsoft.Extensions.DependencyInjection;
 using Dapplo.Microsoft.Extensions.Hosting.Wpf;
 
@@ -64,7 +66,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
         }
 
         /// <summary>
-        ///     Configure the Dapplo.Addon.Bootstrapper with the AssemblySource.Instance values
+        ///     Configure Caliburn.Micro
         /// </summary>
         [SuppressMessage("Sonar Code Smell", "S2696:Instance members should not write to static fields", Justification = "This is the only location where it makes sense.")]
         protected override void Configure()
@@ -73,7 +75,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
             LogManager.GetLog = type => new CaliburnLogger(_loggerFactory.CreateLogger(type));
             ConfigureViewLocator();
 
-            if (_caliburnMicroContext.EnableOriginalDataContect)
+            if (_caliburnMicroContext.EnableOriginalDataContext)
             {
                 MessageBinder.SpecialValues.Add("$originalDataContext", context =>
                 {
@@ -85,7 +87,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
         }
 
         /// <summary>
-        ///     Add logic to find the base viewtype if the default locator can't find a view.
+        ///     Add logic to find the base ViewType if the default locator can't find a view.
         /// </summary>
         [SuppressMessage("Sonar Code Smell", "S2696:Instance members should not write to static fields", Justification = "This is the only location where it makes sense.")]
         private void ConfigureViewLocator()
@@ -141,7 +143,11 @@ namespace Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
         /// <inheritdoc />
         protected override IEnumerable<Assembly> SelectAssemblies()
         {
+#if NETCOREAPP
             return AssemblyLoadContext.Default.Assemblies;
+#else
+            return AppDomain.CurrentDomain.GetAssemblies();
+#endif
         }
 
         /// <inheritdoc />

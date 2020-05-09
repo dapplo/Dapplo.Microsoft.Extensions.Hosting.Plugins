@@ -1,7 +1,9 @@
 ﻿// Copyright (c) Dapplo and contributors. All rights reserved.
 // Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
+using System;
 using System.Collections.Generic;
+using System.Reflection;
 using Microsoft.Extensions.FileSystemGlobbing;
 
 namespace Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
@@ -16,6 +18,12 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
 
         /// <inheritdoc />
         public Matcher PluginMatcher { get; } = new Matcher();
+
+        /// <inheritdoc />
+        public Func<string, bool> ValidatePlugin { get; set; } = s => true;
+
+        /// <inheritdoc />
+        public Func<Assembly, IEnumerable<IPlugin>> AssemblyScanFunc { get; set; } = PluginScanner.ScanForPluginInstances;
 
         /// <inheritdoc />
         public IList<string> PluginDirectories { get; } = new List<string>();

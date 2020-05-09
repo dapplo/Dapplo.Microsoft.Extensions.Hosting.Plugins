@@ -1,78 +1,54 @@
+// Copyright (c) Dapplo and contributors. All rights reserved.
+// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+
 using System;
+using System.Linq;
 using System.Threading;
 using System.Windows.Forms;
 using System.Windows.Threading;
+using Dapplo.Microsoft.Extensions.Hosting.UiThread;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
 
 namespace Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals
 {
     /// <summary>
     /// This contains the logic for the WinForms thread
     /// </summary>
-    internal class WinFormsThread
+    public class WinFormsThread : BaseUiThread<IWinFormsContext>
     {
-        private readonly ManualResetEvent _serviceManualResetEvent = new ManualResetEvent(false);
-        private readonly IWinFormsContext _winFormsContext;
-        private IServiceProvider _serviceProvider;
-
         /// <summary>
         /// Constructor which is called from the IWinFormsContext
         /// </summary>
-        /// <param name="winFormsContext">IWinFormsContext</param>
-        public WinFormsThread(IWinFormsContext winFormsContext)
-        {
-            _winFormsContext = winFormsContext;
-            // Create a thread which runs WPF
-            var newWpfThread = new Thread(WinFormsThreadStart)
-            {
-                IsBackground = true
-            };
-            // Set the apartment state
-            newWpfThread.SetApartmentState(ApartmentState.STA);
-            // Start the new WPF thread
-            newWpfThread.Start();
-        }
-
-        /// <summary>
-        /// Start the DI service on the thread
-        /// </summary>
         /// <param name="serviceProvider">IServiceProvider</param>
-        public void Start(IServiceProvider serviceProvider)
+        public WinFormsThread(IServiceProvider serviceProvider) : base(serviceProvider)
         {
-            _serviceProvider = serviceProvider;
-
-            // Make the UI thread go
-            _serviceManualResetEvent.Set();
         }
 
-        /// <summary>
-        /// Start Windows Forms
-        /// </summary>
-        private void WinFormsThreadStart()
+        /// <inheritdoc />
+        protected override void PreUiThreadStart()
         {
             var currentDispatcher = Dispatcher.CurrentDispatcher;
-            _winFormsContext.Dispatcher = currentDispatcher;
+            UiContext.Dispatcher = currentDispatcher;
 
             // Create our SynchronizationContext, and install it:
             SynchronizationContext.SetSynchronizationContext(new DispatcherSynchronizationContext(currentDispatcher));
 
-            if (_winFormsContext.EnableVisualStyles)
+            if (UiContext.EnableVisualStyles)
             {
                 Application.EnableVisualStyles();
             }
 
             // Register to the WinForms application exit to stop the host application
             Application.ApplicationExit += OnApplicationExit;
+        }
 
-            // Wait for the startup
-            _serviceManualResetEvent.WaitOne();
-
-            // Run the application
-            _winFormsContext.IsRunning = true;
-
+        /// <summary>
+        /// Start Windows Forms
+        /// </summary>
+        protected override void UiThreadStart()
+        {
             // Use the provided IWinFormsService
-            var winFormServices = _serviceProvider.GetServices<IWinFormsService>();
+            var winFormServices = ServiceProvider.GetServices<IWinFormsService>();
             if (winFormServices != null)
             {
                 foreach(var winFormService in winFormServices)
@@ -81,13 +57,21 @@ namespace Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals
                 }
             }
 
-            if (_serviceProvider.GetService<IWinFormsShell>() is Form formShell)
+            // Run the WPF application in this thread which was specifically created for it, with the specified shell
+            var shells = ServiceProvider.GetServices<IWinFormsShell>().Cast<Form>().ToArray();
+
+            switch (shells.Length)
             {
-                Application.Run(formShell);
-            }
-            else
-            {
-                Application.Run();
+                case 1:
+                    Application.Run(shells[0]);
+                    break;
+                case 0:
+                    Application.Run();
+                    break;
+                default:
+                    var multiShellContext = new MultiShellContext(shells);
+                    Application.Run(multiShellContext);
+                    break;
             }
         }
 
@@ -95,14 +79,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals
         {
             Application.ApplicationExit -= OnApplicationExit;
 
-            _winFormsContext.IsRunning = false;
-            if (!_winFormsContext.IsLifetimeLinked)
-            {
-                return;
-            }
-
-            //_logger.LogDebug("Stopping host application due to WinForms application exit.");
-            _serviceProvider.GetService<IHostApplicationLifetime>().StopApplication();
+            HandleApplicationExit();
         }
     }
 }

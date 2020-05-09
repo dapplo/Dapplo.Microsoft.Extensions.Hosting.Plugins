@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Reactive;
+using Dapplo.Microsoft.Extensions.Hosting.ReactiveUI;
+using Dapplo.Microsoft.Extensions.Hosting.Wpf;
 using NuGet.Protocol.Core.Types;
 using ReactiveUI;
+using Splat;
 
 namespace Dapplo.Hosting.Sample.ReactiveDemo
 {
@@ -20,9 +23,12 @@ namespace Dapplo.Hosting.Sample.ReactiveDemo
 
             var startInfo = new ProcessStartInfo(ProjectUrl?.ToString() ?? _defaultUrl.ToString())
             {
-                UseShellExecute = false
+                UseShellExecute = true
             };
-            OpenPage = ReactiveCommand.Create( () => { Process.Start(startInfo); });
+            OpenPage = ReactiveCommand.Create(() => { Process.Start(startInfo); });
+            ////// Either of these can be used to resolve services
+            ////var a = this.Container().GetService(typeof(IWpfShell));
+            ////var b = Locator.Current.GetService(typeof(IWpfShell));
         }
 
         public Uri IconUrl => _metadata.IconUrl ?? _defaultUrl;

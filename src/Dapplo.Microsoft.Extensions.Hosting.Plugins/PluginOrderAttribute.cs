@@ -9,7 +9,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Plugins
     ///     Use this attribute to specify the order for loading plug-ins
     /// </summary>
     [AttributeUsage(AttributeTargets.Class, Inherited = false)]
-    public class PluginOrderAttribute : Attribute
+    public sealed class PluginOrderAttribute : Attribute
     {
         /// <summary>
         /// Default value

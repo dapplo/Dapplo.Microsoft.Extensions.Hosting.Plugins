@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapplo.Microsoft.Extensions
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapplo.Microsoft.Extensions.Hosting.Metro", "Dapplo.Microsoft.Extensions.Hosting.Metro\Dapplo.Microsoft.Extensions.Hosting.Metro.csproj", "{1D55F8AE-61DE-4580-A84A-62C475AE8800}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapplo.Microsoft.Extensions.Hosting.ReactiveUI", "Dapplo.Microsoft.Extensions.Hosting.ReactiveUI\Dapplo.Microsoft.Extensions.Hosting.ReactiveUI.csproj", "{87583849-EB54-4007-B5E8-FABB215DB41A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapplo.Microsoft.Extensions.Hosting.UiThread", "Dapplo.Microsoft.Extensions.Hosting.UiThread\Dapplo.Microsoft.Extensions.Hosting.UiThread.csproj", "{C71BD377-5E95-44E5-A099-53C97AD897B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,14 +73,14 @@ Global
 		{1D55F8AE-61DE-4580-A84A-62C475AE8800}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D55F8AE-61DE-4580-A84A-62C475AE8800}.Release|x64.ActiveCfg = Release|x64
 		{1D55F8AE-61DE-4580-A84A-62C475AE8800}.Release|x64.Build.0 = Release|x64
-		{87583849-EB54-4007-B5E8-FABB215DB41A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87583849-EB54-4007-B5E8-FABB215DB41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87583849-EB54-4007-B5E8-FABB215DB41A}.Debug|x64.ActiveCfg = Debug|x64
-		{87583849-EB54-4007-B5E8-FABB215DB41A}.Debug|x64.Build.0 = Debug|x64
-		{87583849-EB54-4007-B5E8-FABB215DB41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87583849-EB54-4007-B5E8-FABB215DB41A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87583849-EB54-4007-B5E8-FABB215DB41A}.Release|x64.ActiveCfg = Release|x64
-		{87583849-EB54-4007-B5E8-FABB215DB41A}.Release|x64.Build.0 = Release|x64
+		{C71BD377-5E95-44E5-A099-53C97AD897B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71BD377-5E95-44E5-A099-53C97AD897B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71BD377-5E95-44E5-A099-53C97AD897B9}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C71BD377-5E95-44E5-A099-53C97AD897B9}.Debug|x64.Build.0 = Debug|Any CPU
+		{C71BD377-5E95-44E5-A099-53C97AD897B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71BD377-5E95-44E5-A099-53C97AD897B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C71BD377-5E95-44E5-A099-53C97AD897B9}.Release|x64.ActiveCfg = Release|Any CPU
+		{C71BD377-5E95-44E5-A099-53C97AD897B9}.Release|x64.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

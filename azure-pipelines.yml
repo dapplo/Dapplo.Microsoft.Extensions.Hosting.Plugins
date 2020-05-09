@@ -4,62 +4,135 @@
 # https://docs.microsoft.com/azure/devops/pipelines/apps/windows/dot-net
 
 trigger:
-- master
-- feature/*
+  batch: true
+  branches:
+    include:
+    - 'master'
+    exclude:
+    - gh-pages
 
 pr:
 - master
 
-pool:
-  vmImage: 'windows-latest'
+stages:
+- stage: Build
+  jobs:
+  - job: Build
+    pool:
+      vmImage: 'Windows-latest'
 
-variables:
-  solution: '**/src/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+    variables:
+      solution: '**/src/*.sln'
+      buildPlatform: 'Any CPU'
+      buildConfiguration: 'Release'
 
-steps:
+    steps:
+    - checkout: self
+      persistCredentials: true
 
-- task: NuGetToolInstaller@1
+    - task: NuGetToolInstaller@1
 
-- task: UseDotNet@2
-  displayName: 'Use .NET Core sdk 3.1'
-  inputs:
-    packageType: sdk
-    version: 3.1.100
+    - task: UseDotNet@2
+      displayName: 'Use .NET Core sdk 3.1.2'
+      inputs:
+        packageType: sdk
+        version: 3.1.201
 
-- task: DotNetCoreCLI@2
-  displayName: Build
-  inputs:
-    command: build
-    projects: '$(solution)'
-    arguments: '--configuration $(buildConfiguration) /p:Platform="$(buildPlatform)"'
+    - task: DotNetCoreCLI@2
+      displayName: Build
+      inputs:
+        command: build
+        projects: '$(solution)'
+        arguments: '--configuration $(buildConfiguration) /p:Platform="$(buildPlatform)"'
 
-- task: replacetokens@3
-  inputs:
-    rootDirectory: 'templates\Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template\content'
-    targetFiles: '*.csproj'
-    encoding: 'auto'
-    writeBOM: true
-    actionOnMissing: 'fail'
-    keepToken: false
-    tokenPrefix: '#{'
-    tokenSuffix: '}#'
+    - task: replacetokens@3
+      inputs:
+        rootDirectory: 'templates\Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template\content'
+        targetFiles: '*.csproj'
+        encoding: 'auto'
+        writeBOM: true
+        actionOnMissing: 'fail'
+        keepToken: false
+        tokenPrefix: '#{'
+        tokenSuffix: '}#'
 
-- script: nuget pack templates\Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template\Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template.nuspec -Version $(Build.BuildNumber)
+    - script: nuget pack templates\Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template\Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template.nuspec -Version $(Build.BuildNumber)
 
-- task: CopyFiles@2
-  displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
-  inputs:
-    SourceFolder: '$(system.defaultworkingdirectory)'
-    Contents: |
-     **\bin\$(BuildConfiguration)\*.nupkg
-     *Template*.nupkg
-     **\TestResults\**\*.coverage
-    TargetFolder: '$(build.artifactstagingdirectory)'
-    flattenFolders: true
+    - task: CopyFiles@2
+      displayName: 'Copy Files to: $(build.artifactstagingdirectory)'
+      inputs:
+        SourceFolder: '$(system.defaultworkingdirectory)'
+        Contents: |
+          **\bin\$(BuildConfiguration)\*.nupkg
+          *Template*.nupkg
+        TargetFolder: '$(build.artifactstagingdirectory)'
+        flattenFolders: true
 
-- task: PublishBuildArtifacts@1
-  displayName: 'Publish Artifact: drop'
-  inputs:
-    PathtoPublish: '$(build.artifactstagingdirectory)'
+    - powershell: |
+        choco install docfx -y
+        docfx doc/docfx.json
+        if ($lastexitcode -ne 0){
+          throw ("Error generating docfx document")
+        }
+      displayName: 'docfx build'
+
+    - task: CopyFiles@2
+      displayName: 'Copy generated documentation to ArtifactStagingDirectory'
+      inputs:
+        SourceFolder: '$(System.DefaultWorkingDirectory)/doc/_site'
+        TargetFolder: '$(Build.ArtifactStagingDirectory)/site'
+
+    - publish: $(Build.ArtifactStagingDirectory)
+      artifact: drop
+
+    - script: |
+        @echo on
+        git config --local user.name "Robin Krom"
+        git config --local user.email robin@dapplo.net
+        git config --local core.autocrlf false
+        git config --local core.safecrlf false
+        rem Create a branch to work in
+        git checkout -b docfx
+        rem Remove the .gitignore to make sure this doesn't cause issues
+        del .gitignore
+        rem Add all the files from the generated document, ignore warnings
+        git add doc/_site
+        git commit -m "Generated documentation for %BuildNumber%"
+        rem create a local gh-pages branch containing the splitted output folder
+        git subtree split --prefix doc/_site -b gh-pages
+        rem force the push of the gh-pages branch to the remote gh-pages branch at origin
+        git push -f origin gh-pages:gh-pages
+      condition: ne(variables['Build.Reason'], 'PullRequest')
+      env:
+        BuildNumber: $(Build.BuildNumber)
+      displayName: "docfx publish"
+
+- stage: Deploy
+  jobs:
+  - deployment: DeployNuGet
+    pool:
+      vmImage: 'Windows-latest'
+
+    environment: 'NuGet'
+    strategy:
+      # default deployment strategy
+      runOnce:
+        deploy:
+          steps:
+          - task: DownloadPipelineArtifact@2
+            inputs:
+              artifact: 'drop'
+
+          - task: NuGetToolInstaller@0
+            displayName: 'Use NuGet 5.4.0'
+            inputs:
+              versionSpec: 5.4.0
+              checkLatest: true
+
+          - task: NuGetCommand@2
+            displayName: 'NuGet push'
+            inputs:
+              command: push
+              packagesToPush: '$(Pipeline.Workspace)/drop/*.nupkg;!$(Pipeline.Workspace)/drop/*.symbols.nupkg'
+              nuGetFeedType: external
+              publishFeedCredentials: 'Dapplo.Microsoft.Extensions.Hosting'

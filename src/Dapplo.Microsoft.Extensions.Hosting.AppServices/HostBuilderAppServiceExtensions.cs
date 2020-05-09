@@ -26,7 +26,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.AppServices
         {
             if (properties.TryGetValue(MutexBuilderKey, out var mutexBuilderObject))
             {
-                mutexBuilder = mutexBuilderObject as IMutexBuilder;
+                mutexBuilder = (IMutexBuilder)mutexBuilderObject;
                 return true;
 
             }
@@ -34,14 +34,14 @@ namespace Dapplo.Microsoft.Extensions.Hosting.AppServices
             properties[MutexBuilderKey] = mutexBuilder;
             return false;
         }
-        
+
         /// <summary>
         /// Prevent that an application runs multiple times
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <param name="configureAction">Action to configure IMutexBuilder</param>
         /// <returns>IHostBuilder for fluently calling</returns>
-        public static IHostBuilder ConfigureSingleInstance(this IHostBuilder hostBuilder, Action<IMutexBuilder> configureAction) 
+        public static IHostBuilder ConfigureSingleInstance(this IHostBuilder hostBuilder, Action<IMutexBuilder> configureAction)
         {
             hostBuilder.ConfigureServices((hostContext, serviceCollection) =>
             {
@@ -61,10 +61,10 @@ namespace Dapplo.Microsoft.Extensions.Hosting.AppServices
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <param name="mutexId">string</param>
         /// <returns>IHostBuilder for fluently calling</returns>
-        public static IHostBuilder ConfigureSingleInstance(this IHostBuilder hostBuilder, string mutexId) 
+        public static IHostBuilder ConfigureSingleInstance(this IHostBuilder hostBuilder, string mutexId)
         {
             return hostBuilder.ConfigureSingleInstance(builder => builder.MutexId = mutexId);
         }
-        
+
     }
 }

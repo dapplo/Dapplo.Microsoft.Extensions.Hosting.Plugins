@@ -27,7 +27,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Metro
         {
             if (properties.TryGetValue(MetroContextKey, out var metroContextAsObject))
             {
-                metroContext = metroContextAsObject as IMetroContext;
+                metroContext = (IMetroContext)metroContextAsObject;
                 return true;
 
             }
@@ -37,7 +37,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Metro
         }
 
         /// <summary>
-        /// This enables Mahapps.Metro
+        /// This enables MahApps.Metro
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <param name="configureAction">Action to configure IMetroContext</param>
@@ -59,7 +59,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Metro
         }
 
         /// <summary>
-        /// Configure WPF to use Mahapps.Metro and specify the theme
+        /// Configure WPF to use MahApps.Metro and specify the theme
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <param name="theme">string</param>

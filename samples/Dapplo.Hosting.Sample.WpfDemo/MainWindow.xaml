@@ -1,21 +1,36 @@
-﻿<Window x:Class="Dapplo.Hosting.Sample.WpfDemo.MainWindow"
-        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:ViewModel="clr-namespace:Dapplo.Hosting.Sample.WpfDemo.ViewModels"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800"
-        d:DataContext="{d:DesignInstance {x:Type ViewModel:MainWindowViewModel}, IsDesignTimeCreatable=True}">
+﻿<Window
+    x:Class="Dapplo.Hosting.Sample.WpfDemo.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:ViewModel="clr-namespace:Dapplo.Hosting.Sample.WpfDemo.ViewModels"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="MainWindow"
+    Width="800"
+    Height="450"
+    d:DataContext="{d:DesignInstance {x:Type ViewModel:MainWindowViewModel},
+                                     IsDesignTimeCreatable=False}"
+    mc:Ignorable="d">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="8*"/>
-            <RowDefinition Height="1*"/>
-            <RowDefinition Height="1*"/>
+            <RowDefinition Height="8*" />
+            <RowDefinition Height="1*" />
+            <RowDefinition Height="1*" />
         </Grid.RowDefinitions>
-        <Label Content="{Binding Message}" HorizontalAlignment="Center" VerticalAlignment="Center"
-               FontSize="40"/>
-        <Button Content="Another window" Grid.Row="1" FontSize="20" Command="{Binding OpenOtherWindowCommand, Mode=OneWay}"/>
-        <Button Content="Exit" Grid.Row="2" FontSize="20" Click="ButtonExit_Click"/>
+        <Label
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Content="{Binding Message}"
+            FontSize="40" />
+        <Button
+            Grid.Row="1"
+            Command="{Binding OpenOtherWindowCommand, Mode=OneWay}"
+            Content="Another window"
+            FontSize="20" />
+        <Button
+            Grid.Row="2"
+            Click="ButtonExit_Click"
+            Content="Exit"
+            FontSize="20" />
     </Grid>
 </Window>

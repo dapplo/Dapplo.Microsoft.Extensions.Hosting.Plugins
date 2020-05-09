@@ -10,15 +10,15 @@
             <ColumnDefinition Width="Auto" />
             <ColumnDefinition Width="*" />
         </Grid.ColumnDefinitions>
-        <Image x:Name="iconImage" Margin="6" Width="64" Height="64"
+        <Image x:Name="IconImage" Margin="6" Width="64" Height="64"
              HorizontalAlignment="Center" VerticalAlignment="Center"/>
         <TextBlock Grid.Column="1" TextWrapping="WrapWithOverflow" 
                  Margin="6" VerticalAlignment="Center">
-          <Run FontSize="14" FontWeight="SemiBold" x:Name="titleRun"/>
+          <Run FontSize="14" FontWeight="SemiBold" x:Name="TitleRun"/>
           <LineBreak />
-          <Run FontSize="12" x:Name="descriptionRun"/>
+          <Run FontSize="12" x:Name="DescriptionRun"/>
           <LineBreak />
-          <Hyperlink x:Name="openButton">Open</Hyperlink>
+          <Hyperlink x:Name="OpenButton">Open</Hyperlink>
         </TextBlock>
     </Grid>
 </reactiveui:ReactiveUserControl>

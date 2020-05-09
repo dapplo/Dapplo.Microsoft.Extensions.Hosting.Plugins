@@ -42,13 +42,11 @@ namespace Dapplo.Microsoft.Extensions.Hosting.AppServices.Internal
             return Task.CompletedTask;
         }
 
-
         private void OnStopping()
         {
             _logger.LogInformation("OnStopping has been called, closing mutex.");
             _resourceMutex.Dispose();
         }
-
 
         public Task StopAsync(CancellationToken cancellationToken)
         {

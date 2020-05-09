@@ -11,12 +11,12 @@ using Microsoft.Extensions.Hosting;
 namespace Dapplo.Microsoft.Extensions.Hosting.WinForms
 {
     /// <summary>
-    /// This contains the WinForms extensions for Microsoft.Extensions.Hosting 
+    /// This contains the WinForms extensions for Microsoft.Extensions.Hosting
     /// </summary>
     public static class HostBuilderWinFormsExtensions
     {
         private const string WinFormsContextKey = "WinFormsContext";
-        
+
         /// <summary>
         /// Helper method to retrieve the IWinFormsContext
         /// </summary>
@@ -27,7 +27,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.WinForms
         {
             if (properties.TryGetValue(WinFormsContextKey, out var winFormsContextAsObject))
             {
-                winFormsContext = winFormsContextAsObject as IWinFormsContext;
+                winFormsContext = (IWinFormsContext)winFormsContextAsObject;
                 return true;
 
             }
@@ -37,7 +37,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.WinForms
         }
 
         /// <summary>
-        /// Defines that stopping the WinForms application also stops the host (application) 
+        /// Defines that stopping the WinForms application also stops the host (application)
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <returns>IHostBuilder</returns>
@@ -50,7 +50,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.WinForms
             });
             return hostBuilder;
         }
-        
+
         /// <summary>
         /// Configure an WinForms application
         /// </summary>
@@ -64,33 +64,41 @@ namespace Dapplo.Microsoft.Extensions.Hosting.WinForms
                 if (!TryRetrieveWinFormsContext(hostBuilder.Properties, out var winFormsContext))
                 {
                     serviceCollection.AddSingleton(winFormsContext);
+                    serviceCollection.AddSingleton(serviceProvider => new WinFormsThread(serviceProvider));
                     serviceCollection.AddHostedService<WinFormsHostedService>();
                 }
                 configureAction?.Invoke(winFormsContext);
             });
             return hostBuilder;
         }
-        
+
         /// <summary>
         /// Configure an WinForms application
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <param name="configureAction">Action to configure the Application</param>
-        /// <typeparam name="TShell">Type for the shell, must derive from Form and implement IWinFormsShell</typeparam>
+        /// <typeparam name="TView">Type for the View</typeparam>
         /// <returns>IHostBuilder</returns>
-        public static IHostBuilder ConfigureWinForms<TShell>(this IHostBuilder hostBuilder, Action<IWinFormsContext> configureAction = null) where TShell : Form, IWinFormsShell
+        public static IHostBuilder ConfigureWinForms<TView>(this IHostBuilder hostBuilder, Action<IWinFormsContext> configureAction = null) where TView : Form
         {
             hostBuilder.ConfigureWinForms(configureAction);
             hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
             {
-                serviceCollection.AddSingleton<IWinFormsShell, TShell>();
+                serviceCollection.AddSingleton<TView>();
+
+                // Check if it also implements IWinFormsShell so we can register it as this
+                var viewType = typeof(TView);
+                var shellInterfaceType = typeof(IWinFormsShell);
+                if (shellInterfaceType.IsAssignableFrom(viewType))
+                {
+                    serviceCollection.AddSingleton(shellInterfaceType, serviceProvider => serviceProvider.GetRequiredService<TView>());
+                }
             });
             return hostBuilder;
         }
 
-        
         /// <summary>
-        /// Specify the shell, the primary Form, to start
+        /// Specify a shell, the primary Form, to start
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <typeparam name="TShell">Type for the shell, must derive from Form and implement IWinFormsShell</typeparam>

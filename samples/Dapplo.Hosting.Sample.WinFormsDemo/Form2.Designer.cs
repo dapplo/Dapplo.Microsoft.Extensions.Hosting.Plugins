@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.label1 = new System.Windows.Forms.Label();
-            this.buttonExit = new System.Windows.Forms.Button();
+            this.buttonClose = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -43,16 +43,16 @@
             this.label1.Text = "Hello again!";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // buttonExit
+            // buttonClose
             // 
-            this.buttonExit.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.buttonExit.Location = new System.Drawing.Point(0, 376);
-            this.buttonExit.Name = "buttonExit";
-            this.buttonExit.Size = new System.Drawing.Size(800, 74);
-            this.buttonExit.TabIndex = 1;
-            this.buttonExit.Text = "E&xit";
-            this.buttonExit.UseVisualStyleBackColor = true;
-            this.buttonExit.Click += new System.EventHandler(this.buttonExit_Click);
+            this.buttonClose.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.buttonClose.Location = new System.Drawing.Point(0, 376);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(800, 74);
+            this.buttonClose.TabIndex = 1;
+            this.buttonClose.Text = "C&lose";
+            this.buttonClose.UseVisualStyleBackColor = true;
+            this.buttonClose.Click += new System.EventHandler(this.ButtonClose_Click);
             // 
             // Form1
             // 
@@ -60,7 +60,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.buttonExit);
+            this.Controls.Add(this.buttonClose);
             this.Name = "Form2";
             this.Text = "Form2";
             this.ResumeLayout(false);
@@ -70,7 +70,7 @@
         #endregion
 
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button buttonExit;
+        private System.Windows.Forms.Button buttonClose;
     }
 }
 

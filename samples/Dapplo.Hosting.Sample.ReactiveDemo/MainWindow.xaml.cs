@@ -27,17 +27,17 @@ namespace Dapplo.Hosting.Sample.ReactiveDemo
                 // registered which knows how to convert a boolean into visibility.
                 this.OneWayBind(ViewModel,
                     viewModel => viewModel.IsAvailable,
-                    view => view.searchResultsListBox.Visibility)
+                    view => view.SearchResultsListBox.Visibility)
                     .DisposeWith(disposableRegistration);
 
                 this.OneWayBind(ViewModel,
                     viewModel => viewModel.SearchResults,
-                    view => view.searchResultsListBox.ItemsSource)
+                    view => view.SearchResultsListBox.ItemsSource)
                     .DisposeWith(disposableRegistration);
 
                 this.Bind(ViewModel,
                     viewModel => viewModel.SearchTerm,
-                    view => view.searchTextBox.Text)
+                    view => view.SearchTextBox.Text)
                     .DisposeWith(disposableRegistration);
             });
         }

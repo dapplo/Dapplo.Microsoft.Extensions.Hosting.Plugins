@@ -6,7 +6,7 @@ using System.IO;
 namespace Dapplo.Microsoft.Extensions.Hosting.Plugins
 {
     /// <summary>
-    /// 
+    ///
     /// </summary>
     public static class PluginBuilderExtensions
     {

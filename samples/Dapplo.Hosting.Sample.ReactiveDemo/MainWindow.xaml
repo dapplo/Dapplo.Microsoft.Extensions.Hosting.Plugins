@@ -20,8 +20,8 @@
         </Grid.RowDefinitions>
         <TextBlock FontSize="16" FontWeight="SemiBold" 
                    VerticalAlignment="Center" Text="Search for: "/>
-        <TextBox Grid.Column="1" Margin="6 0 0 0" x:Name="searchTextBox" />
-        <ListBox x:Name="searchResultsListBox" Grid.ColumnSpan="3" 
+        <TextBox Grid.Row="0" Grid.Column="1" Margin="6 0 0 0" x:Name="SearchTextBox" />
+        <ListBox x:Name="SearchResultsListBox" Grid.ColumnSpan="2" Grid.Column="0"
                  Grid.Row="1" Margin="0,6,0,0" HorizontalContentAlignment="Stretch"
                  ScrollViewer.HorizontalScrollBarVisibility="Disabled" />
     </Grid>

@@ -11,7 +11,7 @@ using Microsoft.Extensions.Hosting;
 namespace Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
 {
     /// <summary>
-    /// This contains the CaliburnMicro extensions for Microsoft.Extensions.Hosting 
+    /// This contains the CaliburnMicro extensions for Microsoft.Extensions.Hosting
     /// </summary>
     public static class HostBuilderCaliburnMicroExtensions
     {
@@ -27,7 +27,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
         {
             if (properties.TryGetValue(CaliburnMicroContextKey, out var caliburnContextAsObject))
             {
-                caliburnMicroContext = caliburnContextAsObject as ICaliburnMicroContext;
+                caliburnMicroContext = (ICaliburnMicroContext)caliburnContextAsObject;
                 return true;
 
             }
@@ -35,7 +35,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
             properties[CaliburnMicroContextKey] = caliburnMicroContext;
             return false;
         }
-        
+
         /// <summary>
         /// Configure Caliburn.Micro
         /// </summary>
