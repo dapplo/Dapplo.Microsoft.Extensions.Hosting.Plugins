@@ -3,6 +3,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Windows;
 
 namespace Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals
 {
@@ -11,6 +12,9 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals
     {
         /// <inheritdoc/>
         public Type ApplicationType { get; set; }
+
+        /// <inheritdoc/>
+        public Application Application { get; set; }
 
         /// <inheritdoc/>
         public IList<Type> WindowTypes { get; } = new List<Type>();

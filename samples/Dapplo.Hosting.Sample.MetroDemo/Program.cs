@@ -21,7 +21,7 @@ namespace Dapplo.Hosting.Sample.MetroDemo
         private const string HostSettingsFile = "hostsettings.json";
         private const string Prefix = "PREFIX_";
 
-        public static async Task Main(string[] args)
+        public static Task Main(string[] args)
         {
             var executableLocation = Path.GetDirectoryName(typeof(Program).Assembly.Location);
             if (executableLocation == null)
@@ -69,7 +69,7 @@ namespace Dapplo.Hosting.Sample.MetroDemo
 
             Console.WriteLine("Run!");
 
-            await host.RunAsync();
+            return host.RunAsync();
         }
 
         /// <summary>

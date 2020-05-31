@@ -3,11 +3,12 @@
 
 using System;
 using System.Collections.Generic;
+using System.Windows;
 
 namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
 {
     /// <summary>
-    /// Interface used for configuring Wpf 
+    /// Interface used for configuring Wpf
     /// </summary>
     public interface IWpfBuilder
     {
@@ -15,10 +16,20 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
         /// Type of the application that will be used
         /// </summary>
         Type ApplicationType { get; set; }
+
+        /// <summary>
+        /// Gets or sets an existing application.
+        /// </summary>
+        /// <value>
+        /// The application.
+        /// </value>
+        Application Application { get; set; }
+
         /// <summary>
         /// Type of the windows that will be used
         /// </summary>
         IList<Type> WindowTypes { get; }
+
         /// <summary>
         /// Action to configure the Wpf context
         /// </summary>

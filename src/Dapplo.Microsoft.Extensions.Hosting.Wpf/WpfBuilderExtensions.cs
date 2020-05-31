@@ -9,7 +9,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
     /// <summary>
     /// Extension methods to configure Wpf
     /// </summary>
-    public static class WpfBuilderExtensions 
+    public static class WpfBuilderExtensions
     {
         /// <summary>
         /// Register a window, as a singleton
@@ -17,7 +17,8 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
         /// <typeparam name="TWindow">Type of the window, must inherit from Window</typeparam>
         /// <param name="wpfBuilder">IWpfBuilder</param>
         /// <returns>IWpfBuilder</returns>
-        public static IWpfBuilder UseWindow<TWindow>(this IWpfBuilder wpfBuilder) where TWindow : Window  {
+        public static IWpfBuilder UseWindow<TWindow>(this IWpfBuilder wpfBuilder) where TWindow : Window
+        {
             wpfBuilder.WindowTypes.Add(typeof(TWindow));
             return wpfBuilder;
         }
@@ -31,6 +32,20 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
         public static IWpfBuilder UseApplication<TApplication>(this IWpfBuilder wpfBuilder) where TApplication : Application
         {
             wpfBuilder.ApplicationType = typeof(TApplication);
+            return wpfBuilder;
+        }
+
+        /// <summary>
+        /// Uses the current application.
+        /// </summary>
+        /// <typeparam name="TApplication">The type of the application.</typeparam>
+        /// <param name="wpfBuilder">The WPF builder.</param>
+        /// <param name="currentApplication">The current application.</param>
+        /// <returns></returns>
+        public static IWpfBuilder UseCurrentApplication<TApplication>(this IWpfBuilder wpfBuilder, TApplication currentApplication) where TApplication : Application
+        {
+            wpfBuilder.ApplicationType = typeof(TApplication);
+            wpfBuilder.Application = currentApplication;
             return wpfBuilder;
         }
 

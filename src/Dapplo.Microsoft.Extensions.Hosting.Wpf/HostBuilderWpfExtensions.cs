@@ -29,7 +29,6 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
             {
                 wpfContext = (IWpfContext)wpfContextAsObject;
                 return true;
-
             }
             wpfContext = new WpfContext();
             properties[WpfContextKey] = wpfContext;
@@ -44,7 +43,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
         /// <returns>IHostBuilder</returns>
         public static IHostBuilder UseWpfLifetime(this IHostBuilder hostBuilder, ShutdownMode shutdownMode = ShutdownMode.OnLastWindowClose)
         {
-            hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
+            hostBuilder.ConfigureServices((serviceCollection) =>
             {
                 if (!TryRetrieveWpfContext(hostBuilder.Properties, out var wpfContext))
                 {
@@ -58,7 +57,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
         }
 
         /// <summary>
-        /// Configure an WPF application 
+        /// Configure an WPF application
         /// </summary>
         /// <param name="hostBuilder">IHostBuilder</param>
         /// <param name="configureDelegate">Action to configure Wpf</param>
@@ -68,7 +67,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
             var wpfBuilder = new WpfBuilder();
             configureDelegate?.Invoke(wpfBuilder);
 
-            hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
+            hostBuilder.ConfigureServices((serviceCollection) =>
             {
                 if (!TryRetrieveWpfContext(hostBuilder.Properties, out var wpfContext))
                 {
@@ -88,9 +87,17 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
                     throw new ArgumentException("The registered Application type inherit System.Windows.Application", nameof(configureDelegate));
                 }
 
-                hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
+                hostBuilder.ConfigureServices((serviceCollection) =>
                 {
-                    serviceCollection.AddSingleton(wpfBuilder.ApplicationType);
+                    if (wpfBuilder.Application != null)
+                    {
+                        // Add existing Application
+                        serviceCollection.AddSingleton(wpfBuilder.ApplicationType, wpfBuilder.Application);
+                    }
+                    else
+                    {
+                        serviceCollection.AddSingleton(wpfBuilder.ApplicationType);
+                    }
 
                     if (wpfBuilder.ApplicationType != baseApplicationType)
                     {
@@ -101,7 +108,7 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
 
             if (wpfBuilder.WindowTypes.Count > 0)
             {
-                hostBuilder.ConfigureServices((hostBuilderContext, serviceCollection) =>
+                hostBuilder.ConfigureServices((serviceCollection) =>
                 {
                     foreach (var wpfWindowType in wpfBuilder.WindowTypes)
                     {
@@ -114,7 +121,6 @@ namespace Dapplo.Microsoft.Extensions.Hosting.Wpf
                             serviceCollection.AddSingleton(shellInterfaceType, serviceProvider => serviceProvider.GetRequiredService(wpfWindowType));
                         }
                     }
-                    
                 });
             }
 

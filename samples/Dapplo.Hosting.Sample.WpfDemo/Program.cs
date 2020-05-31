@@ -1,5 +1,4 @@
-﻿// Copyright (c) Dapplo and contributors. All rights reserved.
-// Licensed under the MIT license. See LICENSE file in the project root for full license information.
+﻿// Copyright (c) Dapplo and contributors. All rights reserved. Licensed under the MIT license. See LICENSE file in the project root for full license information.
 
 using Dapplo.Microsoft.Extensions.Hosting.Plugins;
 using Microsoft.Extensions.Configuration;
@@ -20,7 +19,7 @@ namespace Dapplo.Hosting.Sample.WpfDemo
         private const string HostSettingsFile = "hostsettings.json";
         private const string Prefix = "PREFIX_";
 
-        public static async Task Main(string[] args)
+        public static Task Main(string[] args)
         {
             var executableLocation = Path.GetDirectoryName(typeof(Program).Assembly.Location);
             if (executableLocation == null)
@@ -57,7 +56,8 @@ namespace Dapplo.Hosting.Sample.WpfDemo
                     // Make OtherWindow available for DI to the MainWindow, but not as singleton
                     serviceCollection.AddTransient<OtherWindow>();
                 })
-                .ConfigureWpf(wpfBuilder => {
+                .ConfigureWpf(wpfBuilder =>
+                {
                     wpfBuilder.UseApplication<MyApplication>();
                     wpfBuilder.UseWindow<MainWindow>();
                 })
@@ -67,21 +67,7 @@ namespace Dapplo.Hosting.Sample.WpfDemo
 
             Console.WriteLine("Run!");
 
-            await host.RunAsync();
-        }
-
-        /// <summary>
-        /// Configure the loggers
-        /// </summary>
-        /// <param name="hostBuilder">IHostBuilder</param>
-        /// <returns>IHostBuilder</returns>
-        private static IHostBuilder ConfigureLogging(this IHostBuilder hostBuilder)
-        {
-            return hostBuilder.ConfigureLogging((hostContext, configLogging) =>
-            {
-                configLogging.AddConsole();
-                configLogging.AddDebug();
-            });
+            return host.RunAsync();
         }
 
         /// <summary>
@@ -109,6 +95,20 @@ namespace Dapplo.Hosting.Sample.WpfDemo
                     configApp.AddEnvironmentVariables(prefix: Prefix);
                     configApp.AddCommandLine(args);
                 });
+        }
+
+        /// <summary>
+        /// Configure the loggers
+        /// </summary>
+        /// <param name="hostBuilder">IHostBuilder</param>
+        /// <returns>IHostBuilder</returns>
+        private static IHostBuilder ConfigureLogging(this IHostBuilder hostBuilder)
+        {
+            return hostBuilder.ConfigureLogging((hostContext, configLogging) =>
+            {
+                configLogging.AddConsole();
+                configLogging.AddDebug();
+            });
         }
     }
 }
