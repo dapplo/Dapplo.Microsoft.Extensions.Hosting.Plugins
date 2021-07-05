@@ -1,0 +1,129 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dapplo.Confluence | Dapplo.Microsoft.Extensions.Hosting </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dapplo.Confluence | Dapplo.Microsoft.Extensions.Hosting ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="images/d.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                <ul class="nav level1 navbar-nav">
+                  <li class="">
+                    <a href="articles/intro.html" title="Articles" class="">Articles</a>
+                  </li>
+                  <li class="">
+                    <a href="api/index.html" title="Api Documentation" class="">Api Documentation</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="dapploconfluence">Dapplo.Confluence</h1>
+
+<p>This is a simple REST based Confluence client, written for Greenshot, by using Dapplo.HttpExtension</p>
+<ul>
+<li>Current build status: <a href="https://ci.appveyor.com/project/dapplo/dapplo-confluence"><img src="https://ci.appveyor.com/api/projects/status/3vp7h9n40n4v680n?svg=true" alt="Build status"></a></li>
+<li>Coverage Status: <a href="https://coveralls.io/github/dapplo/Dapplo.Confluence?branch=master"><img src="https://coveralls.io/repos/github/dapplo/Dapplo.Confluence/badge.svg?branch=master" alt="Coverage Status"></a></li>
+<li>NuGet package: <a href="https://badge.fury.io/nu/Dapplo.Confluence"><img src="https://badge.fury.io/nu/Dapplo.Confluence.svg" alt="NuGet package"></a></li>
+</ul>
+<p>The Confluence client supports most REST methods, and has a fluent API for building a CQL (Confluence Query Language) string to search with.</p>
+<p>An example on how to use this Confluence client:</p>
+<pre><code>var confluenceClient = ConfluenceClient.Create(new Uri(&quot;https://confluence&quot;));
+confluenceClient.SetBasicAuthentication(username, password);
+var query = Where.And(Where.Type.IsPage, Where.Text.Contains(&quot;Test Home&quot;));
+var searchResult = await confluenceClient.Content.SearchAsync(query, limit:1);
+foreach (var content in searchResult.Results)
+{
+    Debug.WriteLine(content.Body);
+}
+</code></pre><p>If you want to extend the API, for example to add logic for a <em>plugin</em>, you can write an extension method to extend the IConfluenceClientPlugins.
+Your &quot;plugin&quot; extension will now be available, if the developer has a using statement of your namespace, on the .Plugins property of the IConfluenceClient</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dapplo/Dapplo.Microsoft.Extensions.Hosting/blob/master/doc/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © Dapplo
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

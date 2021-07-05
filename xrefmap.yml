@@ -1,0 +1,1917 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices
+  name: Dapplo.Microsoft.Extensions.Hosting.AppServices
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.AppServices
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.AppServices
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions
+  name: HostBuilderApplicationExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions
+  nameWithType: HostBuilderApplicationExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder})
+  name: ConfigureSingleInstance(IHostBuilder, Action<IMutexBuilder>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_HostBuilderApplicationExtensions_ConfigureSingleInstance_Microsoft_Extensions_Hosting_IHostBuilder_System_Action_Dapplo_Microsoft_Extensions_Hosting_AppServices_IMutexBuilder__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder})
+  name.vb: ConfigureSingleInstance(IHostBuilder, Action(Of IMutexBuilder))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance(Microsoft.Extensions.Hosting.IHostBuilder, System.Action<Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance(Microsoft.Extensions.Hosting.IHostBuilder, System.Action(Of Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder))
+  nameWithType: HostBuilderApplicationExtensions.ConfigureSingleInstance(IHostBuilder, Action<IMutexBuilder>)
+  nameWithType.vb: HostBuilderApplicationExtensions.ConfigureSingleInstance(IHostBuilder, Action(Of IMutexBuilder))
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance(Microsoft.Extensions.Hosting.IHostBuilder,System.String)
+  name: ConfigureSingleInstance(IHostBuilder, String)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_HostBuilderApplicationExtensions_ConfigureSingleInstance_Microsoft_Extensions_Hosting_IHostBuilder_System_String_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance(Microsoft.Extensions.Hosting.IHostBuilder,System.String)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance(Microsoft.Extensions.Hosting.IHostBuilder, System.String)
+  nameWithType: HostBuilderApplicationExtensions.ConfigureSingleInstance(IHostBuilder, String)
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance*
+  name: ConfigureSingleInstance
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_HostBuilderApplicationExtensions_ConfigureSingleInstance_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.ConfigureSingleInstance
+  nameWithType: HostBuilderApplicationExtensions.ConfigureSingleInstance
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder
+  name: IMutexBuilder
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder
+  nameWithType: IMutexBuilder
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.IsGlobal
+  name: IsGlobal
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_IMutexBuilder_IsGlobal
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.IsGlobal
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.IsGlobal
+  nameWithType: IMutexBuilder.IsGlobal
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.IsGlobal*
+  name: IsGlobal
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_IMutexBuilder_IsGlobal_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.IsGlobal
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.IsGlobal
+  nameWithType: IMutexBuilder.IsGlobal
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.MutexId
+  name: MutexId
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_IMutexBuilder_MutexId
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.MutexId
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.MutexId
+  nameWithType: IMutexBuilder.MutexId
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.MutexId*
+  name: MutexId
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_IMutexBuilder_MutexId_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.MutexId
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.MutexId
+  nameWithType: IMutexBuilder.MutexId
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.WhenNotFirstInstance
+  name: WhenNotFirstInstance
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_IMutexBuilder_WhenNotFirstInstance
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.WhenNotFirstInstance
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.WhenNotFirstInstance
+  nameWithType: IMutexBuilder.WhenNotFirstInstance
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.WhenNotFirstInstance*
+  name: WhenNotFirstInstance
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_IMutexBuilder_WhenNotFirstInstance_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.WhenNotFirstInstance
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.WhenNotFirstInstance
+  nameWithType: IMutexBuilder.WhenNotFirstInstance
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex
+  name: ResourceMutex
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex
+  nameWithType: ResourceMutex
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Create(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
+  name: Create(ILogger, String, String, Boolean)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_ResourceMutex_Create_Microsoft_Extensions_Logging_ILogger_System_String_System_String_System_Boolean_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Create(Microsoft.Extensions.Logging.ILogger,System.String,System.String,System.Boolean)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Create(Microsoft.Extensions.Logging.ILogger, System.String, System.String, System.Boolean)
+  nameWithType: ResourceMutex.Create(ILogger, String, String, Boolean)
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Create*
+  name: Create
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_ResourceMutex_Create_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Create
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Create
+  nameWithType: ResourceMutex.Create
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Dispose
+  name: Dispose()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_ResourceMutex_Dispose
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Dispose
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Dispose()
+  nameWithType: ResourceMutex.Dispose()
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Dispose*
+  name: Dispose
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_ResourceMutex_Dispose_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Dispose
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Dispose
+  nameWithType: ResourceMutex.Dispose
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.IsLocked
+  name: IsLocked
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_ResourceMutex_IsLocked
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.IsLocked
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.IsLocked
+  nameWithType: ResourceMutex.IsLocked
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.IsLocked*
+  name: IsLocked
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_ResourceMutex_IsLocked_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.IsLocked
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.IsLocked
+  nameWithType: ResourceMutex.IsLocked
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Lock
+  name: Lock()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_ResourceMutex_Lock
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Lock
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Lock()
+  nameWithType: ResourceMutex.Lock()
+- uid: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Lock*
+  name: Lock
+  href: api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html#Dapplo_Microsoft_Extensions_Hosting_AppServices_ResourceMutex_Lock_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Lock
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.Lock
+  nameWithType: ResourceMutex.Lock
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
+  name: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger
+  name: CaliburnLogger
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger
+  nameWithType: CaliburnLogger
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.#ctor(Microsoft.Extensions.Logging.ILogger)
+  name: CaliburnLogger(ILogger)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnLogger__ctor_Microsoft_Extensions_Logging_ILogger_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.#ctor(Microsoft.Extensions.Logging.ILogger)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.CaliburnLogger(Microsoft.Extensions.Logging.ILogger)
+  nameWithType: CaliburnLogger.CaliburnLogger(ILogger)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.#ctor*
+  name: CaliburnLogger
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnLogger__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.CaliburnLogger
+  nameWithType: CaliburnLogger.CaliburnLogger
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Error(System.Exception)
+  name: Error(Exception)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnLogger_Error_System_Exception_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Error(System.Exception)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Error(System.Exception)
+  nameWithType: CaliburnLogger.Error(Exception)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Error*
+  name: Error
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnLogger_Error_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Error
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Error
+  nameWithType: CaliburnLogger.Error
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Info(System.String,System.Object[])
+  name: Info(String, Object[])
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnLogger_Info_System_String_System_Object___
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Info(System.String,System.Object[])
+  name.vb: Info(String, Object())
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Info(System.String, System.Object[])
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Info(System.String, System.Object())
+  nameWithType: CaliburnLogger.Info(String, Object[])
+  nameWithType.vb: CaliburnLogger.Info(String, Object())
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Info*
+  name: Info
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnLogger_Info_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Info
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Info
+  nameWithType: CaliburnLogger.Info
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Warn(System.String,System.Object[])
+  name: Warn(String, Object[])
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnLogger_Warn_System_String_System_Object___
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Warn(System.String,System.Object[])
+  name.vb: Warn(String, Object())
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Warn(System.String, System.Object[])
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Warn(System.String, System.Object())
+  nameWithType: CaliburnLogger.Warn(String, Object[])
+  nameWithType.vb: CaliburnLogger.Warn(String, Object())
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Warn*
+  name: Warn
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnLogger_Warn_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Warn
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.Warn
+  nameWithType: CaliburnLogger.Warn
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper
+  name: CaliburnMicroBootstrapper
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper
+  nameWithType: CaliburnMicroBootstrapper
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.#ctor(Microsoft.Extensions.Logging.ILogger{Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper},System.IServiceProvider,Microsoft.Extensions.Logging.ILoggerFactory,Caliburn.Micro.IWindowManager,Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext,Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext)
+  name: CaliburnMicroBootstrapper(ILogger<CaliburnMicroBootstrapper>, IServiceProvider, ILoggerFactory, IWindowManager, IWpfContext, ICaliburnMicroContext)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper__ctor_Microsoft_Extensions_Logging_ILogger_Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper__System_IServiceProvider_Microsoft_Extensions_Logging_ILoggerFactory_Caliburn_Micro_IWindowManager_Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext_Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_ICaliburnMicroContext_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.#ctor(Microsoft.Extensions.Logging.ILogger{Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper},System.IServiceProvider,Microsoft.Extensions.Logging.ILoggerFactory,Caliburn.Micro.IWindowManager,Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext,Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext)
+  name.vb: CaliburnMicroBootstrapper(ILogger(Of CaliburnMicroBootstrapper), IServiceProvider, ILoggerFactory, IWindowManager, IWpfContext, ICaliburnMicroContext)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.CaliburnMicroBootstrapper(Microsoft.Extensions.Logging.ILogger<Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper>, System.IServiceProvider, Microsoft.Extensions.Logging.ILoggerFactory, Caliburn.Micro.IWindowManager, Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext, Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.CaliburnMicroBootstrapper(Microsoft.Extensions.Logging.ILogger(Of Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper), System.IServiceProvider, Microsoft.Extensions.Logging.ILoggerFactory, Caliburn.Micro.IWindowManager, Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext, Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext)
+  nameWithType: CaliburnMicroBootstrapper.CaliburnMicroBootstrapper(ILogger<CaliburnMicroBootstrapper>, IServiceProvider, ILoggerFactory, IWindowManager, IWpfContext, ICaliburnMicroContext)
+  nameWithType.vb: CaliburnMicroBootstrapper.CaliburnMicroBootstrapper(ILogger(Of CaliburnMicroBootstrapper), IServiceProvider, ILoggerFactory, IWindowManager, IWpfContext, ICaliburnMicroContext)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.#ctor*
+  name: CaliburnMicroBootstrapper
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.CaliburnMicroBootstrapper
+  nameWithType: CaliburnMicroBootstrapper.CaliburnMicroBootstrapper
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.BuildUp(System.Object)
+  name: BuildUp(Object)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_BuildUp_System_Object_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.BuildUp(System.Object)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.BuildUp(System.Object)
+  nameWithType: CaliburnMicroBootstrapper.BuildUp(Object)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.BuildUp*
+  name: BuildUp
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_BuildUp_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.BuildUp
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.BuildUp
+  nameWithType: CaliburnMicroBootstrapper.BuildUp
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Configure
+  name: Configure()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_Configure
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Configure
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Configure()
+  nameWithType: CaliburnMicroBootstrapper.Configure()
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Configure*
+  name: Configure
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_Configure_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Configure
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Configure
+  nameWithType: CaliburnMicroBootstrapper.Configure
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetAllInstances(System.Type)
+  name: GetAllInstances(Type)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_GetAllInstances_System_Type_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetAllInstances(System.Type)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetAllInstances(System.Type)
+  nameWithType: CaliburnMicroBootstrapper.GetAllInstances(Type)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetAllInstances*
+  name: GetAllInstances
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_GetAllInstances_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetAllInstances
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetAllInstances
+  nameWithType: CaliburnMicroBootstrapper.GetAllInstances
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetInstance(System.Type,System.String)
+  name: GetInstance(Type, String)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_GetInstance_System_Type_System_String_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetInstance(System.Type,System.String)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetInstance(System.Type, System.String)
+  nameWithType: CaliburnMicroBootstrapper.GetInstance(Type, String)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetInstance*
+  name: GetInstance
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_GetInstance_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetInstance
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.GetInstance
+  nameWithType: CaliburnMicroBootstrapper.GetInstance
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Initialize(System.Windows.Application)
+  name: Initialize(Application)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_Initialize_System_Windows_Application_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Initialize(System.Windows.Application)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Initialize(System.Windows.Application)
+  nameWithType: CaliburnMicroBootstrapper.Initialize(Application)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Initialize*
+  name: Initialize
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_Initialize_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Initialize
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.Initialize
+  nameWithType: CaliburnMicroBootstrapper.Initialize
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.OnStartup(System.Object,System.Windows.StartupEventArgs)
+  name: OnStartup(Object, StartupEventArgs)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_OnStartup_System_Object_System_Windows_StartupEventArgs_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.OnStartup(System.Object,System.Windows.StartupEventArgs)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.OnStartup(System.Object, System.Windows.StartupEventArgs)
+  nameWithType: CaliburnMicroBootstrapper.OnStartup(Object, StartupEventArgs)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.OnStartup*
+  name: OnStartup
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_OnStartup_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.OnStartup
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.OnStartup
+  nameWithType: CaliburnMicroBootstrapper.OnStartup
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.SelectAssemblies
+  name: SelectAssemblies()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_SelectAssemblies
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.SelectAssemblies
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.SelectAssemblies()
+  nameWithType: CaliburnMicroBootstrapper.SelectAssemblies()
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.SelectAssemblies*
+  name: SelectAssemblies
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroBootstrapper_SelectAssemblies_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.SelectAssemblies
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.SelectAssemblies
+  nameWithType: CaliburnMicroBootstrapper.SelectAssemblies
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager
+  name: CaliburnMicroWindowManager
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager
+  nameWithType: CaliburnMicroWindowManager
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.#ctor(System.Collections.Generic.IEnumerable{Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews},System.Collections.Generic.IEnumerable{Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews})
+  name: CaliburnMicroWindowManager(IEnumerable<IConfigureWindowViews>, IEnumerable<IConfigureDialogViews>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager__ctor_System_Collections_Generic_IEnumerable_Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_IConfigureWindowViews__System_Collections_Generic_IEnumerable_Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_IConfigureDialogViews__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.#ctor(System.Collections.Generic.IEnumerable{Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews},System.Collections.Generic.IEnumerable{Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews})
+  name.vb: CaliburnMicroWindowManager(IEnumerable(Of IConfigureWindowViews), IEnumerable(Of IConfigureDialogViews))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CaliburnMicroWindowManager(System.Collections.Generic.IEnumerable<Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews>, System.Collections.Generic.IEnumerable<Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CaliburnMicroWindowManager(System.Collections.Generic.IEnumerable(Of Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews), System.Collections.Generic.IEnumerable(Of Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews))
+  nameWithType: CaliburnMicroWindowManager.CaliburnMicroWindowManager(IEnumerable<IConfigureWindowViews>, IEnumerable<IConfigureDialogViews>)
+  nameWithType.vb: CaliburnMicroWindowManager.CaliburnMicroWindowManager(IEnumerable(Of IConfigureWindowViews), IEnumerable(Of IConfigureDialogViews))
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.#ctor*
+  name: CaliburnMicroWindowManager
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CaliburnMicroWindowManager
+  nameWithType: CaliburnMicroWindowManager.CaliburnMicroWindowManager
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureDialogs
+  name: ConfigureDialogs
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ConfigureDialogs
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureDialogs
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureDialogs
+  nameWithType: CaliburnMicroWindowManager.ConfigureDialogs
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureDialogs*
+  name: ConfigureDialogs
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ConfigureDialogs_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureDialogs
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureDialogs
+  nameWithType: CaliburnMicroWindowManager.ConfigureDialogs
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureWindows
+  name: ConfigureWindows
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ConfigureWindows
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureWindows
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureWindows
+  nameWithType: CaliburnMicroWindowManager.ConfigureWindows
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureWindows*
+  name: ConfigureWindows
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ConfigureWindows_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureWindows
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ConfigureWindows
+  nameWithType: CaliburnMicroWindowManager.ConfigureWindows
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateCustomWindow(System.Object,System.Object,System.Boolean)
+  name: CreateCustomWindow(Object, Object, Boolean)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_CreateCustomWindow_System_Object_System_Object_System_Boolean_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateCustomWindow(System.Object,System.Object,System.Boolean)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateCustomWindow(System.Object, System.Object, System.Boolean)
+  nameWithType: CaliburnMicroWindowManager.CreateCustomWindow(Object, Object, Boolean)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateCustomWindow*
+  name: CreateCustomWindow
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_CreateCustomWindow_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateCustomWindow
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateCustomWindow
+  nameWithType: CaliburnMicroWindowManager.CreateCustomWindow
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePageAsync(System.Object,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name: CreatePageAsync(Object, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_CreatePageAsync_System_Object_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePageAsync(System.Object,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name.vb: CreatePageAsync(Object, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePageAsync(System.Object, System.Object, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePageAsync(System.Object, System.Object, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  nameWithType: CaliburnMicroWindowManager.CreatePageAsync(Object, Object, IDictionary<String, Object>)
+  nameWithType.vb: CaliburnMicroWindowManager.CreatePageAsync(Object, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePageAsync*
+  name: CreatePageAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_CreatePageAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePageAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePageAsync
+  nameWithType: CaliburnMicroWindowManager.CreatePageAsync
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePopup(System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name: CreatePopup(Object, IDictionary<String, Object>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_CreatePopup_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePopup(System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name.vb: CreatePopup(Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePopup(System.Object, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePopup(System.Object, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  nameWithType: CaliburnMicroWindowManager.CreatePopup(Object, IDictionary<String, Object>)
+  nameWithType.vb: CaliburnMicroWindowManager.CreatePopup(Object, IDictionary(Of String, Object))
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePopup*
+  name: CreatePopup
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_CreatePopup_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePopup
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreatePopup
+  nameWithType: CaliburnMicroWindowManager.CreatePopup
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateWindowAsync(System.Object,System.Boolean,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name: CreateWindowAsync(Object, Boolean, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_CreateWindowAsync_System_Object_System_Boolean_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateWindowAsync(System.Object,System.Boolean,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name.vb: CreateWindowAsync(Object, Boolean, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateWindowAsync(System.Object, System.Boolean, System.Object, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateWindowAsync(System.Object, System.Boolean, System.Object, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  nameWithType: CaliburnMicroWindowManager.CreateWindowAsync(Object, Boolean, Object, IDictionary<String, Object>)
+  nameWithType.vb: CaliburnMicroWindowManager.CreateWindowAsync(Object, Boolean, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateWindowAsync*
+  name: CreateWindowAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_CreateWindowAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateWindowAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.CreateWindowAsync
+  nameWithType: CaliburnMicroWindowManager.CreateWindowAsync
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.EnsureWindow(System.Object,System.Object,System.Boolean)
+  name: EnsureWindow(Object, Object, Boolean)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_EnsureWindow_System_Object_System_Object_System_Boolean_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.EnsureWindow(System.Object,System.Object,System.Boolean)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.EnsureWindow(System.Object, System.Object, System.Boolean)
+  nameWithType: CaliburnMicroWindowManager.EnsureWindow(Object, Object, Boolean)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.EnsureWindow*
+  name: EnsureWindow
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_EnsureWindow_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.EnsureWindow
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.EnsureWindow
+  nameWithType: CaliburnMicroWindowManager.EnsureWindow
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowDialogAsync(System.Object,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name: ShowDialogAsync(Object, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ShowDialogAsync_System_Object_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowDialogAsync(System.Object,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name.vb: ShowDialogAsync(Object, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowDialogAsync(System.Object, System.Object, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowDialogAsync(System.Object, System.Object, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  nameWithType: CaliburnMicroWindowManager.ShowDialogAsync(Object, Object, IDictionary<String, Object>)
+  nameWithType.vb: CaliburnMicroWindowManager.ShowDialogAsync(Object, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowDialogAsync*
+  name: ShowDialogAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ShowDialogAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowDialogAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowDialogAsync
+  nameWithType: CaliburnMicroWindowManager.ShowDialogAsync
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowPopupAsync(System.Object,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name: ShowPopupAsync(Object, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ShowPopupAsync_System_Object_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowPopupAsync(System.Object,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name.vb: ShowPopupAsync(Object, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowPopupAsync(System.Object, System.Object, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowPopupAsync(System.Object, System.Object, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  nameWithType: CaliburnMicroWindowManager.ShowPopupAsync(Object, Object, IDictionary<String, Object>)
+  nameWithType.vb: CaliburnMicroWindowManager.ShowPopupAsync(Object, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowPopupAsync*
+  name: ShowPopupAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ShowPopupAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowPopupAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowPopupAsync
+  nameWithType: CaliburnMicroWindowManager.ShowPopupAsync
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowWindowAsync(System.Object,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name: ShowWindowAsync(Object, Object, IDictionary<String, Object>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ShowWindowAsync_System_Object_System_Object_System_Collections_Generic_IDictionary_System_String_System_Object__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowWindowAsync(System.Object,System.Object,System.Collections.Generic.IDictionary{System.String,System.Object})
+  name.vb: ShowWindowAsync(Object, Object, IDictionary(Of String, Object))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowWindowAsync(System.Object, System.Object, System.Collections.Generic.IDictionary<System.String, System.Object>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowWindowAsync(System.Object, System.Object, System.Collections.Generic.IDictionary(Of System.String, System.Object))
+  nameWithType: CaliburnMicroWindowManager.ShowWindowAsync(Object, Object, IDictionary<String, Object>)
+  nameWithType.vb: CaliburnMicroWindowManager.ShowWindowAsync(Object, Object, IDictionary(Of String, Object))
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowWindowAsync*
+  name: ShowWindowAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_CaliburnMicroWindowManager_ShowWindowAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowWindowAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.ShowWindowAsync
+  nameWithType: CaliburnMicroWindowManager.ShowWindowAsync
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions
+  name: HostBuilderCaliburnMicroExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions
+  nameWithType: HostBuilderCaliburnMicroExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro(Microsoft.Extensions.Hosting.IHostBuilder)
+  name: ConfigureCaliburnMicro(IHostBuilder)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_HostBuilderCaliburnMicroExtensions_ConfigureCaliburnMicro_Microsoft_Extensions_Hosting_IHostBuilder_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro(Microsoft.Extensions.Hosting.IHostBuilder)
+  nameWithType: HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro(IHostBuilder)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro*
+  name: ConfigureCaliburnMicro
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_HostBuilderCaliburnMicroExtensions_ConfigureCaliburnMicro_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro
+  nameWithType: HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro``1(Microsoft.Extensions.Hosting.IHostBuilder)
+  name: ConfigureCaliburnMicro<TShell>(IHostBuilder)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_HostBuilderCaliburnMicroExtensions_ConfigureCaliburnMicro__1_Microsoft_Extensions_Hosting_IHostBuilder_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro``1(Microsoft.Extensions.Hosting.IHostBuilder)
+  name.vb: ConfigureCaliburnMicro(Of TShell)(IHostBuilder)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro<TShell>(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro(Of TShell)(Microsoft.Extensions.Hosting.IHostBuilder)
+  nameWithType: HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro<TShell>(IHostBuilder)
+  nameWithType.vb: HostBuilderCaliburnMicroExtensions.ConfigureCaliburnMicro(Of TShell)(IHostBuilder)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext
+  name: ICaliburnMicroContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext
+  nameWithType: ICaliburnMicroContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.EnableOriginalDataContext
+  name: EnableOriginalDataContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_ICaliburnMicroContext_EnableOriginalDataContext
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.EnableOriginalDataContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.EnableOriginalDataContext
+  nameWithType: ICaliburnMicroContext.EnableOriginalDataContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.EnableOriginalDataContext*
+  name: EnableOriginalDataContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_ICaliburnMicroContext_EnableOriginalDataContext_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.EnableOriginalDataContext
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.EnableOriginalDataContext
+  nameWithType: ICaliburnMicroContext.EnableOriginalDataContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroShell
+  name: ICaliburnMicroShell
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroShell.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroShell
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroShell
+  nameWithType: ICaliburnMicroShell
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews
+  name: IConfigureDialogViews
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews
+  nameWithType: IConfigureDialogViews
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.ConfigureDialogView(System.Windows.Window,System.Object)
+  name: ConfigureDialogView(Window, Object)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_IConfigureDialogViews_ConfigureDialogView_System_Windows_Window_System_Object_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.ConfigureDialogView(System.Windows.Window,System.Object)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.ConfigureDialogView(System.Windows.Window, System.Object)
+  nameWithType: IConfigureDialogViews.ConfigureDialogView(Window, Object)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.ConfigureDialogView*
+  name: ConfigureDialogView
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_IConfigureDialogViews_ConfigureDialogView_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.ConfigureDialogView
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.ConfigureDialogView
+  nameWithType: IConfigureDialogViews.ConfigureDialogView
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews
+  name: IConfigureWindowViews
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews
+  nameWithType: IConfigureWindowViews
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.ConfigureWindowView(System.Windows.Window,System.Object)
+  name: ConfigureWindowView(Window, Object)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_IConfigureWindowViews_ConfigureWindowView_System_Windows_Window_System_Object_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.ConfigureWindowView(System.Windows.Window,System.Object)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.ConfigureWindowView(System.Windows.Window, System.Object)
+  nameWithType: IConfigureWindowViews.ConfigureWindowView(Window, Object)
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.ConfigureWindowView*
+  name: ConfigureWindowView
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_IConfigureWindowViews_ConfigureWindowView_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.ConfigureWindowView
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.ConfigureWindowView
+  nameWithType: IConfigureWindowViews.ConfigureWindowView
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings
+  name: IHaveSettings
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings
+  nameWithType: IHaveSettings
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.Settings
+  name: Settings
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_IHaveSettings_Settings
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.Settings
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.Settings
+  nameWithType: IHaveSettings.Settings
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.Settings*
+  name: Settings
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_IHaveSettings_Settings_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.Settings
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.Settings
+  nameWithType: IHaveSettings.Settings
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals
+  name: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext
+  name: CaliburnMicroContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext
+  nameWithType: CaliburnMicroContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.EnableOriginalDataContext
+  name: EnableOriginalDataContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_Internals_CaliburnMicroContext_EnableOriginalDataContext
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.EnableOriginalDataContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.EnableOriginalDataContext
+  nameWithType: CaliburnMicroContext.EnableOriginalDataContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.EnableOriginalDataContext*
+  name: EnableOriginalDataContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.html#Dapplo_Microsoft_Extensions_Hosting_CaliburnMicro_Internals_CaliburnMicroContext_EnableOriginalDataContext_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.EnableOriginalDataContext
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.EnableOriginalDataContext
+  nameWithType: CaliburnMicroContext.EnableOriginalDataContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro
+  name: Dapplo.Microsoft.Extensions.Hosting.Metro
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.Metro
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.Metro
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions
+  name: HostBuilderMetroExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions
+  nameWithType: HostBuilderMetroExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext})
+  name: ConfigureMetro(IHostBuilder, Action<IMetroContext>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Metro_HostBuilderMetroExtensions_ConfigureMetro_Microsoft_Extensions_Hosting_IHostBuilder_System_Action_Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext})
+  name.vb: ConfigureMetro(IHostBuilder, Action(Of IMetroContext))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro(Microsoft.Extensions.Hosting.IHostBuilder, System.Action<Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro(Microsoft.Extensions.Hosting.IHostBuilder, System.Action(Of Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext))
+  nameWithType: HostBuilderMetroExtensions.ConfigureMetro(IHostBuilder, Action<IMetroContext>)
+  nameWithType.vb: HostBuilderMetroExtensions.ConfigureMetro(IHostBuilder, Action(Of IMetroContext))
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro(Microsoft.Extensions.Hosting.IHostBuilder,System.String)
+  name: ConfigureMetro(IHostBuilder, String)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Metro_HostBuilderMetroExtensions_ConfigureMetro_Microsoft_Extensions_Hosting_IHostBuilder_System_String_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro(Microsoft.Extensions.Hosting.IHostBuilder,System.String)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro(Microsoft.Extensions.Hosting.IHostBuilder, System.String)
+  nameWithType: HostBuilderMetroExtensions.ConfigureMetro(IHostBuilder, String)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro*
+  name: ConfigureMetro
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Metro_HostBuilderMetroExtensions_ConfigureMetro_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.ConfigureMetro
+  nameWithType: HostBuilderMetroExtensions.ConfigureMetro
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext
+  name: IMetroContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext
+  nameWithType: IMetroContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Resources
+  name: Resources
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_Resources
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Resources
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Resources
+  nameWithType: IMetroContext.Resources
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Resources*
+  name: Resources
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_Resources_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Resources
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Resources
+  nameWithType: IMetroContext.Resources
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Styles
+  name: Styles
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_Styles
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Styles
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Styles
+  nameWithType: IMetroContext.Styles
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Styles*
+  name: Styles
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_Styles_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Styles
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Styles
+  nameWithType: IMetroContext.Styles
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Theme
+  name: Theme
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_Theme
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Theme
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Theme
+  nameWithType: IMetroContext.Theme
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Theme*
+  name: Theme
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_Theme_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Theme
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.Theme
+  nameWithType: IMetroContext.Theme
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals
+  name: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.Metro.Internals
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext
+  name: MetroContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext
+  nameWithType: MetroContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Resources
+  name: Resources
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_Internals_MetroContext_Resources
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Resources
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Resources
+  nameWithType: MetroContext.Resources
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Resources*
+  name: Resources
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_Internals_MetroContext_Resources_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Resources
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Resources
+  nameWithType: MetroContext.Resources
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Styles
+  name: Styles
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_Internals_MetroContext_Styles
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Styles
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Styles
+  nameWithType: MetroContext.Styles
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Styles*
+  name: Styles
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_Internals_MetroContext_Styles_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Styles
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Styles
+  nameWithType: MetroContext.Styles
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Theme
+  name: Theme
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_Internals_MetroContext_Theme
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Theme
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Theme
+  nameWithType: MetroContext.Theme
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Theme*
+  name: Theme
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.html#Dapplo_Microsoft_Extensions_Hosting_Metro_Internals_MetroContext_Theme_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Theme
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.Theme
+  nameWithType: MetroContext.Theme
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions
+  name: MetroContextExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions
+  nameWithType: MetroContextExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddResource(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext,System.Uri)
+  name: AddResource(IMetroContext, Uri)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Metro_MetroContextExtensions_AddResource_Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_System_Uri_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddResource(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext,System.Uri)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddResource(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext, System.Uri)
+  nameWithType: MetroContextExtensions.AddResource(IMetroContext, Uri)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddResource*
+  name: AddResource
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Metro_MetroContextExtensions_AddResource_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddResource
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddResource
+  nameWithType: MetroContextExtensions.AddResource
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddStyle(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext,System.String)
+  name: AddStyle(IMetroContext, String)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Metro_MetroContextExtensions_AddStyle_Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_System_String_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddStyle(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext,System.String)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddStyle(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext, System.String)
+  nameWithType: MetroContextExtensions.AddStyle(IMetroContext, String)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddStyle*
+  name: AddStyle
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Metro_MetroContextExtensions_AddStyle_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddStyle
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.AddStyle
+  nameWithType: MetroContextExtensions.AddStyle
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService
+  name: MetroWpfService
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService
+  nameWithType: MetroWpfService
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.#ctor(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext)
+  name: MetroWpfService(IMetroContext)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.html#Dapplo_Microsoft_Extensions_Hosting_Metro_MetroWpfService__ctor_Dapplo_Microsoft_Extensions_Hosting_Metro_IMetroContext_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.#ctor(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.MetroWpfService(Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext)
+  nameWithType: MetroWpfService.MetroWpfService(IMetroContext)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.#ctor*
+  name: MetroWpfService
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.html#Dapplo_Microsoft_Extensions_Hosting_Metro_MetroWpfService__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.MetroWpfService
+  nameWithType: MetroWpfService.MetroWpfService
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.Initialize(System.Windows.Application)
+  name: Initialize(Application)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.html#Dapplo_Microsoft_Extensions_Hosting_Metro_MetroWpfService_Initialize_System_Windows_Application_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.Initialize(System.Windows.Application)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.Initialize(System.Windows.Application)
+  nameWithType: MetroWpfService.Initialize(Application)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.Initialize*
+  name: Initialize
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.html#Dapplo_Microsoft_Extensions_Hosting_Metro_MetroWpfService_Initialize_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.Initialize
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.Initialize
+  nameWithType: MetroWpfService.Initialize
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins
+  name: Dapplo.Microsoft.Extensions.Hosting.Plugins
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.Plugins
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.Plugins
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions
+  name: HostBuilderPluginExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions
+  nameWithType: HostBuilderPluginExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.ConfigurePlugins(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder})
+  name: ConfigurePlugins(IHostBuilder, Action<IPluginBuilder>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_HostBuilderPluginExtensions_ConfigurePlugins_Microsoft_Extensions_Hosting_IHostBuilder_System_Action_Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.ConfigurePlugins(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder})
+  name.vb: ConfigurePlugins(IHostBuilder, Action(Of IPluginBuilder))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.ConfigurePlugins(Microsoft.Extensions.Hosting.IHostBuilder, System.Action<Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.ConfigurePlugins(Microsoft.Extensions.Hosting.IHostBuilder, System.Action(Of Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder))
+  nameWithType: HostBuilderPluginExtensions.ConfigurePlugins(IHostBuilder, Action<IPluginBuilder>)
+  nameWithType.vb: HostBuilderPluginExtensions.ConfigurePlugins(IHostBuilder, Action(Of IPluginBuilder))
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.ConfigurePlugins*
+  name: ConfigurePlugins
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_HostBuilderPluginExtensions_ConfigurePlugins_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.ConfigurePlugins
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.ConfigurePlugins
+  nameWithType: HostBuilderPluginExtensions.ConfigurePlugins
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
+  name: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions
+  name: AssemblyLoadContextExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions
+  nameWithType: AssemblyLoadContextExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.TryGetAssembly(System.Runtime.Loader.AssemblyLoadContext,System.Reflection.AssemblyName,System.Reflection.Assembly@)
+  name: TryGetAssembly(AssemblyLoadContext, AssemblyName, out Assembly)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_Internals_AssemblyLoadContextExtensions_TryGetAssembly_System_Runtime_Loader_AssemblyLoadContext_System_Reflection_AssemblyName_System_Reflection_Assembly__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.TryGetAssembly(System.Runtime.Loader.AssemblyLoadContext,System.Reflection.AssemblyName,System.Reflection.Assembly@)
+  name.vb: TryGetAssembly(AssemblyLoadContext, AssemblyName, ByRef Assembly)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.TryGetAssembly(System.Runtime.Loader.AssemblyLoadContext, System.Reflection.AssemblyName, out System.Reflection.Assembly)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.TryGetAssembly(System.Runtime.Loader.AssemblyLoadContext, System.Reflection.AssemblyName, ByRef System.Reflection.Assembly)
+  nameWithType: AssemblyLoadContextExtensions.TryGetAssembly(AssemblyLoadContext, AssemblyName, out Assembly)
+  nameWithType.vb: AssemblyLoadContextExtensions.TryGetAssembly(AssemblyLoadContext, AssemblyName, ByRef Assembly)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.TryGetAssembly*
+  name: TryGetAssembly
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_Internals_AssemblyLoadContextExtensions_TryGetAssembly_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.TryGetAssembly
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.TryGetAssembly
+  nameWithType: AssemblyLoadContextExtensions.TryGetAssembly
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin
+  name: IPlugin
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin
+  nameWithType: IPlugin
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.ConfigureHost(Microsoft.Extensions.Hosting.HostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: ConfigureHost(HostBuilderContext, IServiceCollection)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPlugin_ConfigureHost_Microsoft_Extensions_Hosting_HostBuilderContext_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.ConfigureHost(Microsoft.Extensions.Hosting.HostBuilderContext,Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.ConfigureHost(Microsoft.Extensions.Hosting.HostBuilderContext, Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: IPlugin.ConfigureHost(HostBuilderContext, IServiceCollection)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.ConfigureHost*
+  name: ConfigureHost
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPlugin_ConfigureHost_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.ConfigureHost
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.ConfigureHost
+  nameWithType: IPlugin.ConfigureHost
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder
+  name: IPluginBuilder
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder
+  nameWithType: IPluginBuilder
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.AssemblyScanFunc
+  name: AssemblyScanFunc
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_AssemblyScanFunc
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.AssemblyScanFunc
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.AssemblyScanFunc
+  nameWithType: IPluginBuilder.AssemblyScanFunc
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.AssemblyScanFunc*
+  name: AssemblyScanFunc
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_AssemblyScanFunc_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.AssemblyScanFunc
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.AssemblyScanFunc
+  nameWithType: IPluginBuilder.AssemblyScanFunc
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkDirectories
+  name: FrameworkDirectories
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_FrameworkDirectories
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkDirectories
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkDirectories
+  nameWithType: IPluginBuilder.FrameworkDirectories
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkDirectories*
+  name: FrameworkDirectories
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_FrameworkDirectories_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkDirectories
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkDirectories
+  nameWithType: IPluginBuilder.FrameworkDirectories
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkMatcher
+  name: FrameworkMatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_FrameworkMatcher
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkMatcher
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkMatcher
+  nameWithType: IPluginBuilder.FrameworkMatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkMatcher*
+  name: FrameworkMatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_FrameworkMatcher_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkMatcher
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.FrameworkMatcher
+  nameWithType: IPluginBuilder.FrameworkMatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginDirectories
+  name: PluginDirectories
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_PluginDirectories
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginDirectories
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginDirectories
+  nameWithType: IPluginBuilder.PluginDirectories
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginDirectories*
+  name: PluginDirectories
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_PluginDirectories_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginDirectories
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginDirectories
+  nameWithType: IPluginBuilder.PluginDirectories
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginMatcher
+  name: PluginMatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_PluginMatcher
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginMatcher
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginMatcher
+  nameWithType: IPluginBuilder.PluginMatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginMatcher*
+  name: PluginMatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_PluginMatcher_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginMatcher
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.PluginMatcher
+  nameWithType: IPluginBuilder.PluginMatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.UseContentRoot
+  name: UseContentRoot
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_UseContentRoot
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.UseContentRoot
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.UseContentRoot
+  nameWithType: IPluginBuilder.UseContentRoot
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.UseContentRoot*
+  name: UseContentRoot
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_UseContentRoot_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.UseContentRoot
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.UseContentRoot
+  nameWithType: IPluginBuilder.UseContentRoot
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.ValidatePlugin
+  name: ValidatePlugin
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_ValidatePlugin
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.ValidatePlugin
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.ValidatePlugin
+  nameWithType: IPluginBuilder.ValidatePlugin
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.ValidatePlugin*
+  name: ValidatePlugin
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_ValidatePlugin_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.ValidatePlugin
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.ValidatePlugin
+  nameWithType: IPluginBuilder.ValidatePlugin
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions
+  name: PluginBuilderExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions
+  nameWithType: PluginBuilderExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.AddScanDirectories(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name: AddScanDirectories(IPluginBuilder, String[])
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_AddScanDirectories_Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_System_String___
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.AddScanDirectories(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name.vb: AddScanDirectories(IPluginBuilder, String())
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.AddScanDirectories(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String[])
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.AddScanDirectories(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String())
+  nameWithType: PluginBuilderExtensions.AddScanDirectories(IPluginBuilder, String[])
+  nameWithType.vb: PluginBuilderExtensions.AddScanDirectories(IPluginBuilder, String())
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.AddScanDirectories*
+  name: AddScanDirectories
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_AddScanDirectories_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.AddScanDirectories
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.AddScanDirectories
+  nameWithType: PluginBuilderExtensions.AddScanDirectories
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludeFrameworks(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name: ExcludeFrameworks(IPluginBuilder, String[])
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_ExcludeFrameworks_Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_System_String___
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludeFrameworks(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name.vb: ExcludeFrameworks(IPluginBuilder, String())
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludeFrameworks(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String[])
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludeFrameworks(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String())
+  nameWithType: PluginBuilderExtensions.ExcludeFrameworks(IPluginBuilder, String[])
+  nameWithType.vb: PluginBuilderExtensions.ExcludeFrameworks(IPluginBuilder, String())
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludeFrameworks*
+  name: ExcludeFrameworks
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_ExcludeFrameworks_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludeFrameworks
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludeFrameworks
+  nameWithType: PluginBuilderExtensions.ExcludeFrameworks
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludePlugins(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name: ExcludePlugins(IPluginBuilder, String[])
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_ExcludePlugins_Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_System_String___
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludePlugins(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name.vb: ExcludePlugins(IPluginBuilder, String())
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludePlugins(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String[])
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludePlugins(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String())
+  nameWithType: PluginBuilderExtensions.ExcludePlugins(IPluginBuilder, String[])
+  nameWithType.vb: PluginBuilderExtensions.ExcludePlugins(IPluginBuilder, String())
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludePlugins*
+  name: ExcludePlugins
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_ExcludePlugins_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludePlugins
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.ExcludePlugins
+  nameWithType: PluginBuilderExtensions.ExcludePlugins
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludeFrameworks(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name: IncludeFrameworks(IPluginBuilder, String[])
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_IncludeFrameworks_Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_System_String___
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludeFrameworks(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name.vb: IncludeFrameworks(IPluginBuilder, String())
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludeFrameworks(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String[])
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludeFrameworks(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String())
+  nameWithType: PluginBuilderExtensions.IncludeFrameworks(IPluginBuilder, String[])
+  nameWithType.vb: PluginBuilderExtensions.IncludeFrameworks(IPluginBuilder, String())
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludeFrameworks*
+  name: IncludeFrameworks
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_IncludeFrameworks_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludeFrameworks
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludeFrameworks
+  nameWithType: PluginBuilderExtensions.IncludeFrameworks
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludePlugins(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name: IncludePlugins(IPluginBuilder, String[])
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_IncludePlugins_Dapplo_Microsoft_Extensions_Hosting_Plugins_IPluginBuilder_System_String___
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludePlugins(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder,System.String[])
+  name.vb: IncludePlugins(IPluginBuilder, String())
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludePlugins(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String[])
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludePlugins(Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder, System.String())
+  nameWithType: PluginBuilderExtensions.IncludePlugins(IPluginBuilder, String[])
+  nameWithType.vb: PluginBuilderExtensions.IncludePlugins(IPluginBuilder, String())
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludePlugins*
+  name: IncludePlugins
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginBuilderExtensions_IncludePlugins_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludePlugins
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.IncludePlugins
+  nameWithType: PluginBuilderExtensions.IncludePlugins
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute
+  name: PluginOrderAttribute
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute
+  nameWithType: PluginOrderAttribute
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.#ctor
+  name: PluginOrderAttribute()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginOrderAttribute__ctor
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.#ctor
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.PluginOrderAttribute()
+  nameWithType: PluginOrderAttribute.PluginOrderAttribute()
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.#ctor(System.Int32)
+  name: PluginOrderAttribute(Int32)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginOrderAttribute__ctor_System_Int32_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.#ctor(System.Int32)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.PluginOrderAttribute(System.Int32)
+  nameWithType: PluginOrderAttribute.PluginOrderAttribute(Int32)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.#ctor(System.Object)
+  name: PluginOrderAttribute(Object)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginOrderAttribute__ctor_System_Object_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.#ctor(System.Object)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.PluginOrderAttribute(System.Object)
+  nameWithType: PluginOrderAttribute.PluginOrderAttribute(Object)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.#ctor*
+  name: PluginOrderAttribute
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginOrderAttribute__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.PluginOrderAttribute
+  nameWithType: PluginOrderAttribute.PluginOrderAttribute
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.Order
+  name: Order
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginOrderAttribute_Order
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.Order
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.Order
+  nameWithType: PluginOrderAttribute.Order
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.Order*
+  name: Order
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginOrderAttribute_Order_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.Order
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.Order
+  nameWithType: PluginOrderAttribute.Order
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner
+  name: PluginScanner
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner
+  nameWithType: PluginScanner
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ByNamingConvention(System.Reflection.Assembly)
+  name: ByNamingConvention(Assembly)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginScanner_ByNamingConvention_System_Reflection_Assembly_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ByNamingConvention(System.Reflection.Assembly)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ByNamingConvention(System.Reflection.Assembly)
+  nameWithType: PluginScanner.ByNamingConvention(Assembly)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ByNamingConvention*
+  name: ByNamingConvention
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginScanner_ByNamingConvention_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ByNamingConvention
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ByNamingConvention
+  nameWithType: PluginScanner.ByNamingConvention
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ScanForPluginInstances(System.Reflection.Assembly)
+  name: ScanForPluginInstances(Assembly)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginScanner_ScanForPluginInstances_System_Reflection_Assembly_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ScanForPluginInstances(System.Reflection.Assembly)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ScanForPluginInstances(System.Reflection.Assembly)
+  nameWithType: PluginScanner.ScanForPluginInstances(Assembly)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ScanForPluginInstances*
+  name: ScanForPluginInstances
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.html#Dapplo_Microsoft_Extensions_Hosting_Plugins_PluginScanner_ScanForPluginInstances_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ScanForPluginInstances
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.ScanForPluginInstances
+  nameWithType: PluginScanner.ScanForPluginInstances
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread
+  name: Dapplo.Microsoft.Extensions.Hosting.UiThread
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.UiThread
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.UiThread
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext
+  name: BaseUiContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext
+  nameWithType: BaseUiContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsLifetimeLinked
+  name: IsLifetimeLinked
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiContext_IsLifetimeLinked
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsLifetimeLinked
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsLifetimeLinked
+  nameWithType: BaseUiContext.IsLifetimeLinked
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsLifetimeLinked*
+  name: IsLifetimeLinked
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiContext_IsLifetimeLinked_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsLifetimeLinked
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsLifetimeLinked
+  nameWithType: BaseUiContext.IsLifetimeLinked
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsRunning
+  name: IsRunning
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiContext_IsRunning
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsRunning
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsRunning
+  nameWithType: BaseUiContext.IsRunning
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsRunning*
+  name: IsRunning
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiContext_IsRunning_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsRunning
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.IsRunning
+  nameWithType: BaseUiContext.IsRunning
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1
+  name: BaseUiThread<T>
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1
+  name.vb: BaseUiThread(Of T)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T)
+  nameWithType: BaseUiThread<T>
+  nameWithType.vb: BaseUiThread(Of T)
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.#ctor(System.IServiceProvider)
+  name: BaseUiThread(IServiceProvider)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1__ctor_System_IServiceProvider_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.#ctor(System.IServiceProvider)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.BaseUiThread(System.IServiceProvider)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).BaseUiThread(System.IServiceProvider)
+  nameWithType: BaseUiThread<T>.BaseUiThread(IServiceProvider)
+  nameWithType.vb: BaseUiThread(Of T).BaseUiThread(IServiceProvider)
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.#ctor*
+  name: BaseUiThread
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.BaseUiThread
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).BaseUiThread
+  nameWithType: BaseUiThread<T>.BaseUiThread
+  nameWithType.vb: BaseUiThread(Of T).BaseUiThread
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.HandleApplicationExit
+  name: HandleApplicationExit()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_HandleApplicationExit
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.HandleApplicationExit
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.HandleApplicationExit()
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).HandleApplicationExit()
+  nameWithType: BaseUiThread<T>.HandleApplicationExit()
+  nameWithType.vb: BaseUiThread(Of T).HandleApplicationExit()
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.HandleApplicationExit*
+  name: HandleApplicationExit
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_HandleApplicationExit_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.HandleApplicationExit
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.HandleApplicationExit
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).HandleApplicationExit
+  nameWithType: BaseUiThread<T>.HandleApplicationExit
+  nameWithType.vb: BaseUiThread(Of T).HandleApplicationExit
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.PreUiThreadStart
+  name: PreUiThreadStart()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_PreUiThreadStart
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.PreUiThreadStart
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.PreUiThreadStart()
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).PreUiThreadStart()
+  nameWithType: BaseUiThread<T>.PreUiThreadStart()
+  nameWithType.vb: BaseUiThread(Of T).PreUiThreadStart()
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.PreUiThreadStart*
+  name: PreUiThreadStart
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_PreUiThreadStart_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.PreUiThreadStart
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.PreUiThreadStart
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).PreUiThreadStart
+  nameWithType: BaseUiThread<T>.PreUiThreadStart
+  nameWithType.vb: BaseUiThread(Of T).PreUiThreadStart
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.ServiceProvider
+  name: ServiceProvider
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_ServiceProvider
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.ServiceProvider
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.ServiceProvider
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).ServiceProvider
+  nameWithType: BaseUiThread<T>.ServiceProvider
+  nameWithType.vb: BaseUiThread(Of T).ServiceProvider
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.ServiceProvider*
+  name: ServiceProvider
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_ServiceProvider_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.ServiceProvider
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.ServiceProvider
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).ServiceProvider
+  nameWithType: BaseUiThread<T>.ServiceProvider
+  nameWithType.vb: BaseUiThread(Of T).ServiceProvider
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.Start
+  name: Start()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_Start
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.Start
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.Start()
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).Start()
+  nameWithType: BaseUiThread<T>.Start()
+  nameWithType.vb: BaseUiThread(Of T).Start()
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.Start*
+  name: Start
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_Start_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.Start
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.Start
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).Start
+  nameWithType: BaseUiThread<T>.Start
+  nameWithType.vb: BaseUiThread(Of T).Start
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.UiContext
+  name: UiContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_UiContext
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.UiContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.UiContext
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).UiContext
+  nameWithType: BaseUiThread<T>.UiContext
+  nameWithType.vb: BaseUiThread(Of T).UiContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.UiContext*
+  name: UiContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_UiContext_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.UiContext
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.UiContext
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).UiContext
+  nameWithType: BaseUiThread<T>.UiContext
+  nameWithType.vb: BaseUiThread(Of T).UiContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.UiThreadStart
+  name: UiThreadStart()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_UiThreadStart
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.UiThreadStart
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.UiThreadStart()
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).UiThreadStart()
+  nameWithType: BaseUiThread<T>.UiThreadStart()
+  nameWithType.vb: BaseUiThread(Of T).UiThreadStart()
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.UiThreadStart*
+  name: UiThreadStart
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_BaseUiThread_1_UiThreadStart_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread`1.UiThreadStart
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread<T>.UiThreadStart
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread(Of T).UiThreadStart
+  nameWithType: BaseUiThread<T>.UiThreadStart
+  nameWithType.vb: BaseUiThread(Of T).UiThreadStart
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext
+  name: IUiContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext
+  nameWithType: IUiContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsLifetimeLinked
+  name: IsLifetimeLinked
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_IUiContext_IsLifetimeLinked
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsLifetimeLinked
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsLifetimeLinked
+  nameWithType: IUiContext.IsLifetimeLinked
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsLifetimeLinked*
+  name: IsLifetimeLinked
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_IUiContext_IsLifetimeLinked_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsLifetimeLinked
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsLifetimeLinked
+  nameWithType: IUiContext.IsLifetimeLinked
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsRunning
+  name: IsRunning
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_IUiContext_IsRunning
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsRunning
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsRunning
+  nameWithType: IUiContext.IsRunning
+- uid: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsRunning*
+  name: IsRunning
+  href: api/Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.html#Dapplo_Microsoft_Extensions_Hosting_UiThread_IUiContext_IsRunning_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsRunning
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.IsRunning
+  nameWithType: IUiContext.IsRunning
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms
+  name: Dapplo.Microsoft.Extensions.Hosting.WinForms
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.WinForms
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.WinForms
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions
+  name: HostBuilderWinFormsExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions
+  nameWithType: HostBuilderWinFormsExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext})
+  name: ConfigureWinForms(IHostBuilder, Action<IWinFormsContext>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_HostBuilderWinFormsExtensions_ConfigureWinForms_Microsoft_Extensions_Hosting_IHostBuilder_System_Action_Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsContext__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext})
+  name.vb: ConfigureWinForms(IHostBuilder, Action(Of IWinFormsContext))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms(Microsoft.Extensions.Hosting.IHostBuilder, System.Action<Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms(Microsoft.Extensions.Hosting.IHostBuilder, System.Action(Of Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext))
+  nameWithType: HostBuilderWinFormsExtensions.ConfigureWinForms(IHostBuilder, Action<IWinFormsContext>)
+  nameWithType.vb: HostBuilderWinFormsExtensions.ConfigureWinForms(IHostBuilder, Action(Of IWinFormsContext))
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms*
+  name: ConfigureWinForms
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_HostBuilderWinFormsExtensions_ConfigureWinForms_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms
+  nameWithType: HostBuilderWinFormsExtensions.ConfigureWinForms
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms``1(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext})
+  name: ConfigureWinForms<TView>(IHostBuilder, Action<IWinFormsContext>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_HostBuilderWinFormsExtensions_ConfigureWinForms__1_Microsoft_Extensions_Hosting_IHostBuilder_System_Action_Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsContext__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms``1(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext})
+  name.vb: ConfigureWinForms(Of TView)(IHostBuilder, Action(Of IWinFormsContext))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms<TView>(Microsoft.Extensions.Hosting.IHostBuilder, System.Action<Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinForms(Of TView)(Microsoft.Extensions.Hosting.IHostBuilder, System.Action(Of Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext))
+  nameWithType: HostBuilderWinFormsExtensions.ConfigureWinForms<TView>(IHostBuilder, Action<IWinFormsContext>)
+  nameWithType.vb: HostBuilderWinFormsExtensions.ConfigureWinForms(Of TView)(IHostBuilder, Action(Of IWinFormsContext))
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinFormsShell*
+  name: ConfigureWinFormsShell
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_HostBuilderWinFormsExtensions_ConfigureWinFormsShell_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinFormsShell
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinFormsShell
+  nameWithType: HostBuilderWinFormsExtensions.ConfigureWinFormsShell
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinFormsShell``1(Microsoft.Extensions.Hosting.IHostBuilder)
+  name: ConfigureWinFormsShell<TShell>(IHostBuilder)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_HostBuilderWinFormsExtensions_ConfigureWinFormsShell__1_Microsoft_Extensions_Hosting_IHostBuilder_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinFormsShell``1(Microsoft.Extensions.Hosting.IHostBuilder)
+  name.vb: ConfigureWinFormsShell(Of TShell)(IHostBuilder)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinFormsShell<TShell>(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.ConfigureWinFormsShell(Of TShell)(Microsoft.Extensions.Hosting.IHostBuilder)
+  nameWithType: HostBuilderWinFormsExtensions.ConfigureWinFormsShell<TShell>(IHostBuilder)
+  nameWithType.vb: HostBuilderWinFormsExtensions.ConfigureWinFormsShell(Of TShell)(IHostBuilder)
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.UseWinFormsLifetime(Microsoft.Extensions.Hosting.IHostBuilder)
+  name: UseWinFormsLifetime(IHostBuilder)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_HostBuilderWinFormsExtensions_UseWinFormsLifetime_Microsoft_Extensions_Hosting_IHostBuilder_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.UseWinFormsLifetime(Microsoft.Extensions.Hosting.IHostBuilder)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.UseWinFormsLifetime(Microsoft.Extensions.Hosting.IHostBuilder)
+  nameWithType: HostBuilderWinFormsExtensions.UseWinFormsLifetime(IHostBuilder)
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.UseWinFormsLifetime*
+  name: UseWinFormsLifetime
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_HostBuilderWinFormsExtensions_UseWinFormsLifetime_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.UseWinFormsLifetime
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.UseWinFormsLifetime
+  nameWithType: HostBuilderWinFormsExtensions.UseWinFormsLifetime
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals
+  name: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext
+  name: WinFormsContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext
+  nameWithType: WinFormsContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.Dispatcher
+  name: Dispatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsContext_Dispatcher
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.Dispatcher
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.Dispatcher
+  nameWithType: WinFormsContext.Dispatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.Dispatcher*
+  name: Dispatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsContext_Dispatcher_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.Dispatcher
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.Dispatcher
+  nameWithType: WinFormsContext.Dispatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.EnableVisualStyles
+  name: EnableVisualStyles
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsContext_EnableVisualStyles
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.EnableVisualStyles
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.EnableVisualStyles
+  nameWithType: WinFormsContext.EnableVisualStyles
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.EnableVisualStyles*
+  name: EnableVisualStyles
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsContext_EnableVisualStyles_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.EnableVisualStyles
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.EnableVisualStyles
+  nameWithType: WinFormsContext.EnableVisualStyles
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread
+  name: WinFormsThread
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread
+  nameWithType: WinFormsThread
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.#ctor(System.IServiceProvider)
+  name: WinFormsThread(IServiceProvider)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsThread__ctor_System_IServiceProvider_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.#ctor(System.IServiceProvider)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.WinFormsThread(System.IServiceProvider)
+  nameWithType: WinFormsThread.WinFormsThread(IServiceProvider)
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.#ctor*
+  name: WinFormsThread
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsThread__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.WinFormsThread
+  nameWithType: WinFormsThread.WinFormsThread
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.PreUiThreadStart
+  name: PreUiThreadStart()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsThread_PreUiThreadStart
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.PreUiThreadStart
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.PreUiThreadStart()
+  nameWithType: WinFormsThread.PreUiThreadStart()
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.PreUiThreadStart*
+  name: PreUiThreadStart
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsThread_PreUiThreadStart_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.PreUiThreadStart
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.PreUiThreadStart
+  nameWithType: WinFormsThread.PreUiThreadStart
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.UiThreadStart
+  name: UiThreadStart()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsThread_UiThreadStart
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.UiThreadStart
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.UiThreadStart()
+  nameWithType: WinFormsThread.UiThreadStart()
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.UiThreadStart*
+  name: UiThreadStart
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsThread_UiThreadStart_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.UiThreadStart
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.UiThreadStart
+  nameWithType: WinFormsThread.UiThreadStart
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext
+  name: IWinFormsContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext
+  nameWithType: IWinFormsContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.Dispatcher
+  name: Dispatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsContext_Dispatcher
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.Dispatcher
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.Dispatcher
+  nameWithType: IWinFormsContext.Dispatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.Dispatcher*
+  name: Dispatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsContext_Dispatcher_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.Dispatcher
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.Dispatcher
+  nameWithType: IWinFormsContext.Dispatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.EnableVisualStyles
+  name: EnableVisualStyles
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsContext_EnableVisualStyles
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.EnableVisualStyles
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.EnableVisualStyles
+  nameWithType: IWinFormsContext.EnableVisualStyles
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.EnableVisualStyles*
+  name: EnableVisualStyles
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsContext_EnableVisualStyles_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.EnableVisualStyles
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.EnableVisualStyles
+  nameWithType: IWinFormsContext.EnableVisualStyles
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService
+  name: IWinFormsService
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService
+  nameWithType: IWinFormsService
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.Initialize
+  name: Initialize()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsService_Initialize
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.Initialize
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.Initialize()
+  nameWithType: IWinFormsService.Initialize()
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.Initialize*
+  name: Initialize
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsService_Initialize_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.Initialize
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.Initialize
+  nameWithType: IWinFormsService.Initialize
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsShell
+  name: IWinFormsShell
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsShell.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsShell
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsShell
+  nameWithType: IWinFormsShell
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService
+  name: WinFormsHostedService
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService
+  nameWithType: WinFormsHostedService
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.#ctor(Microsoft.Extensions.Logging.ILogger{Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService},Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread,Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext)
+  name: WinFormsHostedService(ILogger<WinFormsHostedService>, WinFormsThread, IWinFormsContext)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_WinFormsHostedService__ctor_Microsoft_Extensions_Logging_ILogger_Dapplo_Microsoft_Extensions_Hosting_WinForms_WinFormsHostedService__Dapplo_Microsoft_Extensions_Hosting_WinForms_Internals_WinFormsThread_Dapplo_Microsoft_Extensions_Hosting_WinForms_IWinFormsContext_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.#ctor(Microsoft.Extensions.Logging.ILogger{Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService},Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread,Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext)
+  name.vb: WinFormsHostedService(ILogger(Of WinFormsHostedService), WinFormsThread, IWinFormsContext)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.WinFormsHostedService(Microsoft.Extensions.Logging.ILogger<Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService>, Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread, Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.WinFormsHostedService(Microsoft.Extensions.Logging.ILogger(Of Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService), Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread, Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext)
+  nameWithType: WinFormsHostedService.WinFormsHostedService(ILogger<WinFormsHostedService>, WinFormsThread, IWinFormsContext)
+  nameWithType.vb: WinFormsHostedService.WinFormsHostedService(ILogger(Of WinFormsHostedService), WinFormsThread, IWinFormsContext)
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.#ctor*
+  name: WinFormsHostedService
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_WinFormsHostedService__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.WinFormsHostedService
+  nameWithType: WinFormsHostedService.WinFormsHostedService
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StartAsync(System.Threading.CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_WinFormsHostedService_StartAsync_System_Threading_CancellationToken_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StartAsync(System.Threading.CancellationToken)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StartAsync(System.Threading.CancellationToken)
+  nameWithType: WinFormsHostedService.StartAsync(CancellationToken)
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StartAsync*
+  name: StartAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_WinFormsHostedService_StartAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StartAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StartAsync
+  nameWithType: WinFormsHostedService.StartAsync
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StopAsync(System.Threading.CancellationToken)
+  name: StopAsync(CancellationToken)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_WinFormsHostedService_StopAsync_System_Threading_CancellationToken_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StopAsync(System.Threading.CancellationToken)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StopAsync(System.Threading.CancellationToken)
+  nameWithType: WinFormsHostedService.StopAsync(CancellationToken)
+- uid: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StopAsync*
+  name: StopAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.html#Dapplo_Microsoft_Extensions_Hosting_WinForms_WinFormsHostedService_StopAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StopAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.StopAsync
+  nameWithType: WinFormsHostedService.StopAsync
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf
+  name: Dapplo.Microsoft.Extensions.Hosting.Wpf
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.Wpf
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.Wpf
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions
+  name: HostBuilderWpfExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions
+  nameWithType: HostBuilderWpfExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.ConfigureWpf(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder})
+  name: ConfigureWpf(IHostBuilder, Action<IWpfBuilder>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_HostBuilderWpfExtensions_ConfigureWpf_Microsoft_Extensions_Hosting_IHostBuilder_System_Action_Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.ConfigureWpf(Microsoft.Extensions.Hosting.IHostBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder})
+  name.vb: ConfigureWpf(IHostBuilder, Action(Of IWpfBuilder))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.ConfigureWpf(Microsoft.Extensions.Hosting.IHostBuilder, System.Action<Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.ConfigureWpf(Microsoft.Extensions.Hosting.IHostBuilder, System.Action(Of Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder))
+  nameWithType: HostBuilderWpfExtensions.ConfigureWpf(IHostBuilder, Action<IWpfBuilder>)
+  nameWithType.vb: HostBuilderWpfExtensions.ConfigureWpf(IHostBuilder, Action(Of IWpfBuilder))
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.ConfigureWpf*
+  name: ConfigureWpf
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_HostBuilderWpfExtensions_ConfigureWpf_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.ConfigureWpf
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.ConfigureWpf
+  nameWithType: HostBuilderWpfExtensions.ConfigureWpf
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.UseWpfLifetime(Microsoft.Extensions.Hosting.IHostBuilder,System.Windows.ShutdownMode)
+  name: UseWpfLifetime(IHostBuilder, ShutdownMode)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_HostBuilderWpfExtensions_UseWpfLifetime_Microsoft_Extensions_Hosting_IHostBuilder_System_Windows_ShutdownMode_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.UseWpfLifetime(Microsoft.Extensions.Hosting.IHostBuilder,System.Windows.ShutdownMode)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.UseWpfLifetime(Microsoft.Extensions.Hosting.IHostBuilder, System.Windows.ShutdownMode)
+  nameWithType: HostBuilderWpfExtensions.UseWpfLifetime(IHostBuilder, ShutdownMode)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.UseWpfLifetime*
+  name: UseWpfLifetime
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_HostBuilderWpfExtensions_UseWpfLifetime_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.UseWpfLifetime
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.UseWpfLifetime
+  nameWithType: HostBuilderWpfExtensions.UseWpfLifetime
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals
+  name: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.html
+  commentId: N:Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals
+  nameWithType: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread
+  name: WpfThread
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread
+  nameWithType: WpfThread
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.#ctor(System.IServiceProvider)
+  name: WpfThread(IServiceProvider)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_Internals_WpfThread__ctor_System_IServiceProvider_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.#ctor(System.IServiceProvider)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.WpfThread(System.IServiceProvider)
+  nameWithType: WpfThread.WpfThread(IServiceProvider)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.#ctor*
+  name: WpfThread
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_Internals_WpfThread__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.WpfThread
+  nameWithType: WpfThread.WpfThread
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.PreUiThreadStart
+  name: PreUiThreadStart()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_Internals_WpfThread_PreUiThreadStart
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.PreUiThreadStart
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.PreUiThreadStart()
+  nameWithType: WpfThread.PreUiThreadStart()
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.PreUiThreadStart*
+  name: PreUiThreadStart
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_Internals_WpfThread_PreUiThreadStart_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.PreUiThreadStart
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.PreUiThreadStart
+  nameWithType: WpfThread.PreUiThreadStart
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.UiThreadStart
+  name: UiThreadStart()
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_Internals_WpfThread_UiThreadStart
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.UiThreadStart
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.UiThreadStart()
+  nameWithType: WpfThread.UiThreadStart()
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.UiThreadStart*
+  name: UiThreadStart
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_Internals_WpfThread_UiThreadStart_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.UiThreadStart
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.UiThreadStart
+  nameWithType: WpfThread.UiThreadStart
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder
+  name: IWpfBuilder
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder
+  nameWithType: IWpfBuilder
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ApplicationType
+  name: ApplicationType
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_ApplicationType
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ApplicationType
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ApplicationType
+  nameWithType: IWpfBuilder.ApplicationType
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ApplicationType*
+  name: ApplicationType
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_ApplicationType_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ApplicationType
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ApplicationType
+  nameWithType: IWpfBuilder.ApplicationType
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ConfigureContextAction
+  name: ConfigureContextAction
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_ConfigureContextAction
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ConfigureContextAction
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ConfigureContextAction
+  nameWithType: IWpfBuilder.ConfigureContextAction
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ConfigureContextAction*
+  name: ConfigureContextAction
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_ConfigureContextAction_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ConfigureContextAction
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.ConfigureContextAction
+  nameWithType: IWpfBuilder.ConfigureContextAction
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.WindowTypes
+  name: WindowTypes
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_WindowTypes
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.WindowTypes
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.WindowTypes
+  nameWithType: IWpfBuilder.WindowTypes
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.WindowTypes*
+  name: WindowTypes
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_WindowTypes_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.WindowTypes
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.WindowTypes
+  nameWithType: IWpfBuilder.WindowTypes
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext
+  name: IWpfContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext
+  nameWithType: IWpfContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.Dispatcher
+  name: Dispatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext_Dispatcher
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.Dispatcher
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.Dispatcher
+  nameWithType: IWpfContext.Dispatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.Dispatcher*
+  name: Dispatcher
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext_Dispatcher_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.Dispatcher
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.Dispatcher
+  nameWithType: IWpfContext.Dispatcher
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.ShutdownMode
+  name: ShutdownMode
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext_ShutdownMode
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.ShutdownMode
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.ShutdownMode
+  nameWithType: IWpfContext.ShutdownMode
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.ShutdownMode*
+  name: ShutdownMode
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext_ShutdownMode_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.ShutdownMode
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.ShutdownMode
+  nameWithType: IWpfContext.ShutdownMode
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.WpfApplication
+  name: WpfApplication
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext_WpfApplication
+  commentId: P:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.WpfApplication
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.WpfApplication
+  nameWithType: IWpfContext.WpfApplication
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.WpfApplication*
+  name: WpfApplication
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext_WpfApplication_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.WpfApplication
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.WpfApplication
+  nameWithType: IWpfContext.WpfApplication
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService
+  name: IWpfService
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService
+  nameWithType: IWpfService
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.Initialize(System.Windows.Application)
+  name: Initialize(Application)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfService_Initialize_System_Windows_Application_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.Initialize(System.Windows.Application)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.Initialize(System.Windows.Application)
+  nameWithType: IWpfService.Initialize(Application)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.Initialize*
+  name: Initialize
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfService_Initialize_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.Initialize
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.Initialize
+  nameWithType: IWpfService.Initialize
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfShell
+  name: IWpfShell
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfShell.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfShell
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfShell
+  nameWithType: IWpfShell
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions
+  name: WpfBuilderExtensions
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions
+  nameWithType: WpfBuilderExtensions
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.ConfigureContext(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext})
+  name: ConfigureContext(IWpfBuilder, Action<IWpfContext>)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfBuilderExtensions_ConfigureContext_Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_System_Action_Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext__
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.ConfigureContext(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder,System.Action{Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext})
+  name.vb: ConfigureContext(IWpfBuilder, Action(Of IWpfContext))
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.ConfigureContext(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder, System.Action<Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext>)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.ConfigureContext(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder, System.Action(Of Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext))
+  nameWithType: WpfBuilderExtensions.ConfigureContext(IWpfBuilder, Action<IWpfContext>)
+  nameWithType.vb: WpfBuilderExtensions.ConfigureContext(IWpfBuilder, Action(Of IWpfContext))
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.ConfigureContext*
+  name: ConfigureContext
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfBuilderExtensions_ConfigureContext_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.ConfigureContext
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.ConfigureContext
+  nameWithType: WpfBuilderExtensions.ConfigureContext
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseApplication*
+  name: UseApplication
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfBuilderExtensions_UseApplication_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseApplication
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseApplication
+  nameWithType: WpfBuilderExtensions.UseApplication
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseApplication``1(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder)
+  name: UseApplication<TApplication>(IWpfBuilder)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfBuilderExtensions_UseApplication__1_Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseApplication``1(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder)
+  name.vb: UseApplication(Of TApplication)(IWpfBuilder)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseApplication<TApplication>(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseApplication(Of TApplication)(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder)
+  nameWithType: WpfBuilderExtensions.UseApplication<TApplication>(IWpfBuilder)
+  nameWithType.vb: WpfBuilderExtensions.UseApplication(Of TApplication)(IWpfBuilder)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseWindow*
+  name: UseWindow
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfBuilderExtensions_UseWindow_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseWindow
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseWindow
+  nameWithType: WpfBuilderExtensions.UseWindow
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseWindow``1(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder)
+  name: UseWindow<TWindow>(IWpfBuilder)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfBuilderExtensions_UseWindow__1_Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfBuilder_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseWindow``1(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder)
+  name.vb: UseWindow(Of TWindow)(IWpfBuilder)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseWindow<TWindow>(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.UseWindow(Of TWindow)(Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder)
+  nameWithType: WpfBuilderExtensions.UseWindow<TWindow>(IWpfBuilder)
+  nameWithType.vb: WpfBuilderExtensions.UseWindow(Of TWindow)(IWpfBuilder)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService
+  name: WpfHostedService
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.html
+  commentId: T:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService
+  nameWithType: WpfHostedService
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.#ctor(Microsoft.Extensions.Logging.ILogger{Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService},Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread,Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext)
+  name: WpfHostedService(ILogger<WpfHostedService>, WpfThread, IWpfContext)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfHostedService__ctor_Microsoft_Extensions_Logging_ILogger_Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfHostedService__Dapplo_Microsoft_Extensions_Hosting_Wpf_Internals_WpfThread_Dapplo_Microsoft_Extensions_Hosting_Wpf_IWpfContext_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.#ctor(Microsoft.Extensions.Logging.ILogger{Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService},Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread,Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext)
+  name.vb: WpfHostedService(ILogger(Of WpfHostedService), WpfThread, IWpfContext)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.WpfHostedService(Microsoft.Extensions.Logging.ILogger<Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService>, Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread, Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext)
+  fullName.vb: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.WpfHostedService(Microsoft.Extensions.Logging.ILogger(Of Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService), Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread, Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext)
+  nameWithType: WpfHostedService.WpfHostedService(ILogger<WpfHostedService>, WpfThread, IWpfContext)
+  nameWithType.vb: WpfHostedService.WpfHostedService(ILogger(Of WpfHostedService), WpfThread, IWpfContext)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.#ctor*
+  name: WpfHostedService
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfHostedService__ctor_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.#ctor
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.WpfHostedService
+  nameWithType: WpfHostedService.WpfHostedService
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StartAsync(System.Threading.CancellationToken)
+  name: StartAsync(CancellationToken)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfHostedService_StartAsync_System_Threading_CancellationToken_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StartAsync(System.Threading.CancellationToken)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StartAsync(System.Threading.CancellationToken)
+  nameWithType: WpfHostedService.StartAsync(CancellationToken)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StartAsync*
+  name: StartAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfHostedService_StartAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StartAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StartAsync
+  nameWithType: WpfHostedService.StartAsync
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StopAsync(System.Threading.CancellationToken)
+  name: StopAsync(CancellationToken)
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfHostedService_StopAsync_System_Threading_CancellationToken_
+  commentId: M:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StopAsync(System.Threading.CancellationToken)
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StopAsync(System.Threading.CancellationToken)
+  nameWithType: WpfHostedService.StopAsync(CancellationToken)
+- uid: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StopAsync*
+  name: StopAsync
+  href: api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.html#Dapplo_Microsoft_Extensions_Hosting_Wpf_WpfHostedService_StopAsync_
+  commentId: Overload:Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StopAsync
+  isSpec: "True"
+  fullName: Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.StopAsync
+  nameWithType: WpfHostedService.StopAsync

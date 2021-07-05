@@ -1,0 +1,219 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dapplo.Microsoft.Extensions.Hosting | Dapplo.Microsoft.Extensions.Hosting </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dapplo.Microsoft.Extensions.Hosting | Dapplo.Microsoft.Extensions.Hosting ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../images/favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc">
+    <meta property="docfx:tocrel" content="toc">
+    
+    
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../images/d.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+                <ul class="nav level1 navbar-nav">
+                  <li class="active">
+                    <a href="../articles/intro.html" title="Articles" class="active">Articles</a>
+                  </li>
+                  <li class="">
+                    <a href="../api/index.html" title="Api Documentation" class="">Api Documentation</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+        </nav>        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div>
+              <div class="sidefilter">
+                <form class="toc-filter">
+                  <span class="glyphicon glyphicon-filter filter-icon"></span>
+                  <input type="text" id="toc_filter_input" placeholder="Enter here to filter..." onkeypress="if(event.keyCode==13) {return false;}">
+                </form>
+              </div>
+              <div class="sidetoc">
+                <div class="toc" id="toc">
+                  
+                  <ul class="nav level1">
+                    <li class="active">
+                      <a href="intro.html" title="Introduction" class="active">Introduction</a>
+                    </li>
+                  </ul>        </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="dapplomicrosoftextensionshosting">Dapplo.Microsoft.Extensions.Hosting</h1>
+
+<p><a href="https://dev.azure.com/Dapplo/Dapplo.Microsoft.Extensions.Hosting/_build/latest?definitionId=6&amp;branchName=master"><img src="https://dev.azure.com/Dapplo/Dapplo.Microsoft.Extensions.Hosting/_apis/build/status/dapplo.Dapplo.Microsoft.Extensions.Hosting?branchName=master" alt="Build Status"></a></p>
+<p>Ever wondered if it&#39;s possible to have a nice modular way to develop a .NET application, being able to reuse services and logic between ASP.NET core, Service workers, Console application or even a UI application? Maybe even have the possibility to combine them all in one application? The <a href="https://docs.microsoft.com/en-us/aspnet/core/fundamentals/host/generic-host">generic host</a> makes this (partly) possible, although it might look like it&#39;s for ASP.NET core it&#39;s not and it will probably move elsewhere.</p>
+<p>This repository brings you a few extensions on the generic host which will help you on your way to quickly build a new application with extra functionality:</p>
+<ul>
+<li>Dapplo.Microsoft.Extensions.Hosting.AppServices - Simple services, e.g. make sure you application runs only once!</li>
+<li>Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro - Bases upon Dapplo.Microsoft.Extensions.Hosting.Wpf and bootstraps <a href="https://caliburnmicro.com">Caliburn.Micro</a></li>
+<li>Dapplo.Microsoft.Extensions.Hosting.WinForms - Have a way to bootstrap Windows Forms with all the possible generic host functionality, and manage the lifetime.</li>
+<li>Dapplo.Microsoft.Extensions.Hosting.Wpf -   Have a way to bootstrap WPF with all the possible generic host functionality, and manage the lifetime.</li>
+<li>Dapplo.Microsoft.Extensions.Hosting.Plugins - Makes it possible to find &amp; load additional plug-in which can add services to your application.</li>
+</ul>
+<p>FYI: there is a solution with samples in the samples directory and one which is used on the build server in the src.</p>
+<p>I&#39;ve created a dotnet new template on <a href="https://www.nuget.org/packages/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template.CSharp/"><img src="https://img.shields.io/nuget/v/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template.CSharp.svg" alt="Nuget"></a> so to quickly start, you can type the following:</p>
+<pre><code>dotnet new --install Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Template.CSharp
+</code></pre><p>After this you can create a new project by doing something like this (the enable metro and mutex arguments are optional, default is true):</p>
+<pre><code>dotnet new caliburnmicrohost --EnableMetro true --EnableMutex true
+</code></pre><h2 id="dapplomicrosoftextensionshostingplugins">Dapplo.Microsoft.Extensions.Hosting.Plugins</h2>
+<p><a href="https://www.nuget.org/packages/Dapplo.Microsoft.Extensions.Hosting.Plugins/"><img src="https://img.shields.io/nuget/v/Dapplo.Microsoft.Extensions.Hosting.Plugins.svg" alt="Nuget"></a></p>
+<p>This extension adds plug-in support to generic host based dotnet core 3.0 applications.</p>
+<p>You can simply add the location of plug-ins by specifying globs to find your plug-in assemblies.
+This can be both files to include and / or exclude.
+Each located plug-ins is loaded into it&#39;s own AssemblyLoadContext, dependencies are found and loaded in the same AssemblyLoadContext via an AssemblyDependencyResolver (which was introduced in dotnet core 3.0).</p>
+<p><a href="https://github.com/dapplo/Dapplo.Microsoft.Extensions.Hosting/blob/master/samples/Dapplo.Hosting.Sample.ConsoleDemo/Program.cs#L27">Here</a>
+ is an example how to use the loading, and also how to handle framework assemblies:</p>
+<pre><code>.ConfigurePlugins(pluginBuilder =&gt;
+    {
+        // Specify the location from where the Dll&#39;s are &quot;globbed&quot;
+        pluginBuilder.AddScanDirectories(Path.Combine(Directory.GetCurrentDirectory(), @&quot;..\..&quot;));
+        // Add the framework libraries which can be found with the specified globs
+        pluginBuilder.IncludeFrameworks(@&quot;**\bin\**\*.FrameworkLib.dll&quot;);
+        // Add the plugins which can be found with the specified globs
+        pluginBuilder.IncludePlugins(@&quot;**\bin\**\*.Plugin*.dll&quot;);
+    })
+</code></pre><p>The DLL which is your plugin should have at least one class which implements IPlugin, this implementation can configure the HostBuilderContext.</p>
+<pre><code>    /// &lt;summary&gt;
+    /// This plug-in configures the HostBuilderContext to have the hosted services from the online example
+    /// &lt;/summary&gt;
+    public class Plugin : IPlugin
+    {
+        /// &lt;inheritdoc /&gt;
+        public void ConfigureHost(HostBuilderContext hostBuilderContext, IServiceCollection serviceCollection)
+        {
+            serviceCollection.AddHostedService&lt;LifetimeEventsHostedService&gt;();
+            serviceCollection.AddHostedService&lt;TimedHostedService&gt;();
+        }
+    }
+</code></pre><h2 id="dapplomicrosoftextensionshostingappservices">Dapplo.Microsoft.Extensions.Hosting.AppServices</h2>
+<p><a href="https://www.nuget.org/packages/Dapplo.Microsoft.Extensions.Hosting.AppServices/"><img src="https://img.shields.io/nuget/v/Dapplo.Microsoft.Extensions.Hosting.AppServices.svg" alt="Nuget"></a></p>
+<p>This extension adds some generic application services for desktop applications, currently only the mutex functionality is included but more are coming.</p>
+<p><a href="https://github.com/dapplo/Dapplo.Microsoft.Extensions.Hosting/blob/master/samples/Dapplo.Hosting.Sample.WinFormsDemo/Program.cs#L25">Here</a> is an example how to make sure your application only runs once.</p>
+<pre><code>.ConfigureSingleInstance(builder =&gt;
+    {
+        builder.MutexId = &quot;{B9CE32C0-59AE-4AF0-BE39-5329AAFF4BE8}&quot;;
+        builder.WhenNotFirstInstance = (hostingEnvironment, logger) =&gt;
+        {
+            // This is called when an instance was already started, this is in the second instance
+            logger.LogWarning(&quot;Application {0} already running.&quot;, hostingEnvironment.ApplicationName);
+        };
+    })
+</code></pre><p>In general you call hostBuilder.ConfigureSingleInstance and supply a mutex id.</p>
+<h2 id="dapplomicrosoftextensionshostingwinforms">Dapplo.Microsoft.Extensions.Hosting.WinForms</h2>
+<p><a href="https://www.nuget.org/packages/Dapplo.Microsoft.Extensions.Hosting.WinForms/"><img src="https://img.shields.io/nuget/v/Dapplo.Microsoft.Extensions.Hosting.WinForms.svg" alt="Nuget"></a></p>
+<p>This extension adds WinForms support to generic host based dotnet core 3.0 applications.
+With this you can enhance your application with a UI, and use all the services provided by the generic host like DI, logging etc.</p>
+<p><a href="https://github.com/dapplo/Dapplo.Microsoft.Extensions.Hosting/blob/master/samples/Dapplo.Hosting.Sample.WinFormsDemo/Program.cs#L48">Here</a> is an example how to start your application with a Form1 and have the application automatically shutdown whenever you exit the Form1. To make this possible Form1 must implement a marker interface, which currently has no methods, called IWinFormsShell. The IWinFormsShell is considered the main entry point of your UI. You only specify the type, the instance will be created at a later time by the generic host and will automatically go through the DI process.</p>
+<p>This means you can have a constructor which requests a logger, or other forms.</p>
+<p>It&#39;s not much more than adding something like this to your hostBuilder:</p>
+<pre><code> .ConfigureWinForms&lt;Form1&gt;()
+ .UseWinFormsLifetime()
+</code></pre><h2 id="dapplomicrosoftextensionshostingwpf">Dapplo.Microsoft.Extensions.Hosting.Wpf</h2>
+<p><a href="https://www.nuget.org/packages/Dapplo.Microsoft.Extensions.Hosting.Wpf/"><img src="https://img.shields.io/nuget/v/Dapplo.Microsoft.Extensions.Hosting.Wpf.svg" alt="Nuget"></a></p>
+<p>This extension adds WPF support to generic host based dotnet core 3.0 applications.
+With this you can enhance your application with a UI, and use all the services provided by the generic host like DI, logging etc.</p>
+<p><a href="https://github.com/dapplo/Dapplo.Microsoft.Extensions.Hosting/blob/master/samples/Dapplo.Hosting.Sample.WpfDemo/Program.cs#L48">Here</a> is an example how to start your application with a MainWindow and have the application automatically shutdown whenever you exit the MainWindow. To make this possible MainWindow must implement a marker interface, which currently has no methods, called IWpfShell. The IWpfShell is considered the main entry point of your UI. You only specify the type, the instance will be created at a later time by the generic host and will automatically go through the DI process.</p>
+<p>This means your MainWindow can have a constructor which requests a logger, or other windows.</p>
+<p>It&#39;s not much more than adding something like this to your hostBuilder:</p>
+<pre><code>    .ConfigureWpf&lt;MainWindow&gt;()
+    .UseWpfLifetime()
+</code></pre><h2 id="dapplomicrosoftextensionshostingcaliburnmicro">Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro</h2>
+<p><a href="https://www.nuget.org/packages/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro/"><img src="https://img.shields.io/nuget/v/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.svg" alt="Nuget"></a></p>
+<p>This extension adds <a href="https://caliburnmicro.com">Caliburn.Micro</a> support to generic host based dotnet core 3.0 applications.
+With this you can enhance your application with a UI, and use all the services provided by the generic host like DI, logging etc, together with this great MVVM framework.</p>
+<p><a href="https://github.com/dapplo/Dapplo.Microsoft.Extensions.Hosting/blob/master/samples/Dapplo.Hosting.Sample.CaliburnMicroDemo/Program.cs#L54">Here</a> is an example how to start your application with a MainWindowViewModel and have the application automatically shutdown whenever you exit the MainWindowViewModel. To make this possible MainWindowViewModel must implement a marker interface, which currently has no methods, called ICaliburnMicroShell. The ICaliburnMicroShell is considered the main entry point of your UI. You only specify the type, the instance will be created at a later time by the generic host and will automatically go through the DI process.</p>
+<p>This means your MainWindowViewModel can have a constructor which requests a logger, or other windows.</p>
+<p>It&#39;s not much more than adding something like this to your hostBuilder:</p>
+<pre><code>    .ConfigureCaliburnMicro&lt;MainViewModel&gt;()
+</code></pre><p>It assumes Dapplo.Microsoft.Extensions.Hosting.Wpf is used!</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/dapplo/Dapplo.Microsoft.Extensions.Hosting/blob/master/doc/articles/intro.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Copyright © Dapplo
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

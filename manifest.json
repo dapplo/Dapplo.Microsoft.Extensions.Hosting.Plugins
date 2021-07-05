@@ -1,0 +1,792 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/a/1/s/doc",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.AppServices.HostBuilderApplicationExtensions.html",
+          "hash": "pOKl5WfJk+WsYAiM4FvhlbqmwqX15DGfnJhW7CJl6lg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.AppServices.IMutexBuilder.html",
+          "hash": "qjh2C1qhAKtU5RggdY7nRRuMLjD0j0jL8H/HEUiX6CU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.AppServices.ResourceMutex.html",
+          "hash": "m7/So5pHhI9AXeWMsM4jSg1fMQoaPzwUm684pZAVr8s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.AppServices.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.AppServices.html",
+          "hash": "UVg1C3lrZbD4/7RKMm1rUBVzO2fUMma5ejD828TxupI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnLogger.html",
+          "hash": "ObN+S0fMPsqfg6MuGQBERDCCnabBvG0oA/aNTxZKxIc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroBootstrapper.html",
+          "hash": "7cRzv2EoOWoER1i9/csiUTw+5zT5FItUY6Zyl9QtaLM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.CaliburnMicroWindowManager.html",
+          "hash": "jcWOWy2bC00xWEiA0c9iDiPQQmDQnj6ZfHUvxc3eggA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.HostBuilderCaliburnMicroExtensions.html",
+          "hash": "MFxfOPpkclrXzIlAHnmQpgFkMMXBhLKhxvkSsYb9eKg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroContext.html",
+          "hash": "E+yUnCTe9RRwgHbw+I/SYQNjDOu6UYuXN89ElGs1Ff4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.ICaliburnMicroShell.html",
+          "hash": "mmfZLK/XR+8gKkD9sFo9AszYOsUrsFqmNyt/bVV2Igc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureDialogViews.html",
+          "hash": "rH3hGCxJEBZGki/NdfEWzyB2SY/vHiv366GlYYxipAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IConfigureWindowViews.html",
+          "hash": "8RdsOEZaUULcbFXFM1weQwBVBWtxvc1qQaRbFiP/8UE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.IHaveSettings.html",
+          "hash": "Qfr/I/s5AQJvp4BkKqFmrUhlshQiYGEHCidYgrHxBio="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.CaliburnMicroContext.html",
+          "hash": "zHRPpg/ED3afIQdhrqH2EMAAp/MUzrOz9Kt/wLKHZu0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.Internals.html",
+          "hash": "hoLgsQnHg4cBtqNpFJBXTXOmAfS29ki65AVcykPHKY4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.CaliburnMicro.html",
+          "hash": "zzavoS6Tgc2xX07LuUhVStFDWSnT2+lLdEdDY2cq23s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.HostBuilderMetroExtensions.html",
+          "hash": "YWYXJCYjPjASgGQOsAuHRZ6AbwysN38wBvGL26xjJl4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.IMetroContext.html",
+          "hash": "3iUBV61F//Sm4Iem85YMUkYDZoF3jLYJcGJgu0LK6Y0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.MetroContext.html",
+          "hash": "Mjy6GQsrSeeeuwwdirbHQMcMjp1H04YzC3IesoZlZEw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.Internals.html",
+          "hash": "6O2Y1zb1vtTKvTEQvoihJGe0RSQzNEHhlz2inqhoEAM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroContextExtensions.html",
+          "hash": "MKrTY9ipfo0XSWFaU/Uz4NoOjfF8RiMdWnZkNjiFd5U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.MetroWpfService.html",
+          "hash": "B8O0B8rHXofhRgk2RLo/r9oWuSq+NmqB6SOKqTvy7RY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Metro.html",
+          "hash": "wPQ1d8X5QJHjnz+BotHOqjqts7wD9CTqlr95WpqzdRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.HostBuilderPluginExtensions.html",
+          "hash": "/LekZ0LWNfTGtyEX2DivIpy4qVfZWFVqAB78aIq2DOc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPlugin.html",
+          "hash": "HtrviQlwdCPSHcLOujEUv572/9HXT1nDMeeu5+jn5A0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.IPluginBuilder.html",
+          "hash": "SgcX4Rj1ILiMoUW7/Fug6VhF3e+CwI6/5RF6lOHiCGg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.AssemblyLoadContextExtensions.html",
+          "hash": "9Zoyj4pCOCFZtZaMdx9jYV13pizKWVmRhViBig60ERM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.Internals.html",
+          "hash": "hgImVSj5ejYz2MFNK7B5wiWXiXzEccsTXWRAMEcaqN8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginBuilderExtensions.html",
+          "hash": "myLRpwCs9fiFe11hJdQ0bpiB19/2H6W75Ts3+VmfXS8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginOrderAttribute.html",
+          "hash": "bA/UwCMq9DNlFcl/zLHG+2DeP3atwwQAPqK0iOkgq9I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.PluginScanner.html",
+          "hash": "Tfbt5knh7qzAO86Hw2beKvqTmoJYL/IlqaDW0CtDlwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Plugins.html",
+          "hash": "2p9axI+TtlIwNPfZVNq7JKTuU3lJuIBEUODtf0hl1YY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiContext.html",
+          "hash": "I6XkyJ5AEp9ZysB9MDuRyDWbzwOpT9ZxhJinHmsSXSQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.UiThread.BaseUiThread-1.html",
+          "hash": "HgZEEKsK1sHrRfDCTXrYSpfqBCgpq8ueCFRsv8mhEM8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.UiThread.IUiContext.html",
+          "hash": "19wnyUXE9y/SCxNVWb71x7a0rbBTc9f2PpM+9WSb5nU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.UiThread.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.UiThread.html",
+          "hash": "isJbSrHWtkzpqm69+DDSrPdAjLafGkurVzfjx28OP0k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.HostBuilderWinFormsExtensions.html",
+          "hash": "WPCd4cAckv/KriHWO3x3dT4DbrD1PDehcPZo6Wbpkx0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsContext.html",
+          "hash": "Jpyx2Tyk4+D6miiuFo0HXqOFrBOlAbczdI+GKRA0eLs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsService.html",
+          "hash": "RGWK79lyd+p68NYgOAsZQn2MJxGKuvG/vbLtQj0USjo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.IWinFormsShell.html",
+          "hash": "pHgb+GtzDLYVtLwk/56/tPM0H5fXPRGD1D4V7/IobzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsContext.html",
+          "hash": "y3FybV5xT3OQOhYZYomoRuIJTgwdmR8ATZpUkQDmoUc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.WinFormsThread.html",
+          "hash": "upAYjvAxmiesdTt4HuyB2/dJYBRoohjAOzojOhP/Ji0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.Internals.html",
+          "hash": "mi2zc/WeGHJsBkV+uUIEKXGAjClyADkc+gZzVtqRi7Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.WinFormsHostedService.html",
+          "hash": "aXZT+Ofv0O5LD/2psRmozYVLW487TcafJHYz8m+Z5fw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.WinForms.html",
+          "hash": "igvlAJa6g7XOfKW4tFs/ldSjaNSJh9VsgaDcYPeCs7o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.HostBuilderWpfExtensions.html",
+          "hash": "YELpH42o45ZCq9+oWdTHBxMY7BD7mJSNPM0on4BKnJU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfBuilder.html",
+          "hash": "RemfkpECVFaCuIBZ1aLtX9CRMemvsSlSZ2MUSjNJLMo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfContext.html",
+          "hash": "UIuooGPlqwP2qK1WHYPXw1L7D/BmrgOZq1JkV2dh7wM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfService.html",
+          "hash": "pB2KB+7vfPdkKLS/ZutDpHtdZj70ss9gNPl8PqNxgNo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfShell.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.IWpfShell.html",
+          "hash": "5O80tyBlioCIAjbfhl4LIBpYl7a1JF7C/4SpcOgz7Z4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.WpfThread.html",
+          "hash": "O1Q212keUN/VkLoqCNWZhRKaoAT86dDq0DoLuvatR5k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.Internals.html",
+          "hash": "BWy/dH8WhBASWX+7S6f8d5vZU5yzGLHKg8HwmxyTPn4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfBuilderExtensions.html",
+          "hash": "J48JVQ6zbXK7u1Fzji5sbY63RYqcUb/PDqSbdKdjShM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.WpfHostedService.html",
+          "hash": "nfUvErE+qEoTUnzR5BXk8bUoJ+B8Xk0CUU/lSOXDLn4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Dapplo.Microsoft.Extensions.Hosting.Wpf.html",
+          "hash": "ywYT6KvAdMyaiiG5O0EBZGzj5PBH+K2mcKaU8Bd6THs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "Tf0AwIsiVz1cu1e4u5vYVd2zefwW2BPu74LHV9gsp9o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "OI5hD05TswnUMu/j+Y77PEqgJTPyJSu0rm2Ox7d092U="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/d.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/d.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/favicon.ico",
+      "output": {
+        "resource": {
+          "relative_path": "images/favicon.ico"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/logo.svg",
+      "output": {
+        "resource": {
+          "relative_path": "images/logo.svg"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "/rHl2F/p0rpCqDLUkgQNfC5Fl4p39CevUM60lLJgFUw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because last build info is missing.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "NoAvailableBuildCache"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 55,
+          "skipped_file_count": 0
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
